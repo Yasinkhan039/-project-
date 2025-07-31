@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edukon - Education And LMS React JS
+Template Preview - ThemeForest</title>
+<link rel="shortcut icon" href="https://i.pinimg.com/736x/5b/39/56/5b3956c6be6f944aaac93debf81a5c7a.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Custom CSS for responsiveness */
+        .top-info-bar {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+        
+        .top-info-bar .icon-item {
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .top-info-bar i {
+            margin-right: 5px;
+        }
+        
+        .social-icons {
+            display: flex;
+        }
+        
+        .social-icons a {
+            color: chocolate;
+            margin-left: 10px;
+            font-size: 18px;
+        }
+        
+        .navbar-brand img {
+            max-height: 50px;
+        }
+        
+        .hero-section {
+            padding: 60px 0;
+        }
+        
+        .hero-content {
+            padding: 20px;
+        }
+        
+        .hero-image {
+            text-align: center;
+        }
+        
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        @media (max-width: 991.98px) {
+            .navbar-collapse {
+                padding-left: 0 !important;
+            }
+            
+            .buttonp1 {
+                margin-top: 15px;
+            }
+            
+            .hero-content h1 {
+                font-size: 36px !important;
+                width: 100% !important;
+            }
+            
+            .hero-content p {
+                width: 100% !important;
+            }
+        }
+        
+        @media (max-width: 767.98px) {
+            .top-info-bar .icon-item {
+                margin-bottom: 5px;
+            }
+            
+            .social-icons {
+                justify-content: flex-start;
+                margin-top: 10px;
+            }
+            
+            .hero-content {
+                text-align: center;
+            }
+            
+            .search-bar {
+                margin: 0 auto;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid" style=" height: 80vh; position: relative; background-image: url(./bg.1.png); background-position: center; background-size: cover; background-repeat: no-repeat;">
+        <!-- Top Black Bar -->
+        <div class="container-fluid fixed-top" style="background-color: black; height: 70px; display: flex; justify-content: space-between; align-items: center;"> 
+            <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/home.html">
+                <img src="https://public-assets.envato-static.com/assets/logos/envato_market-dd390ae860330996644c1c109912d2bf63885fc075b87215ace9b5b4bdc71cc8.svg" style="width:150px;" alt="logo">
+            </a>
+            <button type="button" style="border: none; color: white; background-color: rgb(11, 128, 11); width: 100px; height: 40px;" class="btn"> 
+<a class="header-buy-now e-btn--3d -color-primary" style="text-decoration: none; color: white;" href="https://themeforest.net/checkout/from_item/38286924?license=regular&amp;support=bundle_6month">Buy now</a></button>
+        </div>
+         <!-- Top Info Bar -->
+        <div class="top-info-bar  p-3 mb-5 bg-body-tertiary rounded">
+            <div class="container-fluid d-none d-lg-block" style=" padding: 20px 130px; margin-top: 40px; background-color: white; height: 60px;">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6 col-12 icon-item">
+                        <i class="ri-phone-fill" style="color: orangered;"></i> +800-123-4567 6587
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 icon-item" style=" border-left:  1px solid rgb(233, 233, 233); height: 40px;">
+                        <i class="fas fa-location-dot" style="color: orangered;"></i> Beverley, New York 224 USA
+                    </div> 
+                    <div class="col-lg-2 col-md-6 col-12 icon-item" style="display: flex; gap:20px;border-left:  1px solid rgb(233, 233, 233); height: 45px;">
+                        Find us on :
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; " >
+                            <i class="ri-messenger-fill" style="color: chocolate; font-size: 20px;"></i></a>
+                    </div> 
+                    <div class="col-lg-3 col-md-6 col-12 social-icons">
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:20px;border-left:  1px solid rgb(233, 233, 233); height: 40px; width: 50px; padding-top: 10px;padding-left: 19px;"><i class="ri-twitter-fill"></i></a>
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:30px;border-left:  1px solid rgb(233, 233, 233); height: 40px; width: 50px; padding-top: 10px;padding-left: 19px;"><i class="ri-vimeo-fill"></i></a>
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:20px;border-left:  1px solid rgb(233, 233, 233); height: 40px; width: 50px; padding-top: 10px;padding-left: 19px;"><i class="ri-skype-fill"></i></a>
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:20px;border-left:  1px solid rgb(233, 233, 233); height: 40px; width: 50px; padding-top: 10px;padding-left: 19px;"> <i class="ri-wifi-fill"></i></a>
+                    </div> 
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Navigation -->
+        <div class="container-fluid fixed-top" style=" margin-top: 125px;">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="logo.2.png" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="./HomeOne.html">Home One</a></li>
+                                    <li><a class="dropdown-item blue1" href="./HomeTwo.html">Home Two</a></li>
+                                    <li><a class="dropdown-item blue1" href="./HomeThree.html">Home Three</a></li>
+                                    <li><a class="dropdown-item blue1" href="./HomeFour.html">Home Four</a></li>
+                                    <!-- <li><a class="dropdown-item" href="HomeFive.html">Home Five</a></li> -->
+                                    <!-- <li><a class="dropdown-item" href="HomeSeven.html">Home Six</a></li> -->
+                                    <!-- <li><a class="dropdown-item" href="HomeSeven.html">Home Seven</a></li> -->
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Course
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="./Course.html">Course</a></li>
+                                    <li><a class="dropdown-item blue1" href="./Course Details.html">Course Details</a></li>
+                                    <li><a class="dropdown-item blue1" href="./Course View.html">Course View</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="Blog grid.html">Blog grid</a></li>
+                                    <li><a class="dropdown-item blue1" href="Blog Style 2.html">Blog Style 2</a></li>
+                                    <li><a class="dropdown-item blue1" href="Blog Style 3.html">Blog Style 3</a></li>
+                                    <li><a class="dropdown-item blue1" href="Blog Single.html">Blog Single</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="About.html">About</a></li>
+                                    <li><a class="dropdown-item " href="Team.html">Team</a></li>
+                                    <li><a class="dropdown-item blue1" href="Instructor.html">Instructor</a></li>
+                                    <li><a class="dropdown-item blue1" href="Shop Page.html">Shop Page</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="font-weight: 700;" href="Contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="buttonp1 d-flex">
+                            <button type="button" class="btn btn-light me-2" style="background-color: rgb(233, 231, 231); border: none; width: 90px; height: 50px;">SIGN UP</button>
+                            <button type="button" class="btn" style="background-color: coral; width: 90px; height: 50px; border: none; color: white;">LOG IN</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container" style="padding-top: 140px;">
+            <div class="row" style="display: flex;align-items: center;justify-content: center; ">
+                <h1 style="display: flex;align-items: center;justify-content: center; ">Themeforest Standard</h1></div>
+            <div class="col" style="gap: 10px; display: flex;align-items: center;justify-content: center; ">
+                <a href="HomeOne.html" style="text-decoration: none;color: black;"> Home </a> <span> / Course View</span>
+                <p></p>
+            </div>
+            
+        </div>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="container orders1">
+                <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm-12 order-3">
+                    <h3 style="font-weight: 700;padding: 15px; ">Themeforest Standard Website Design</h3>
+                    <video class="container" controls="">
+                        <source src="http://demos.codexcoder.com/anthem/wp-content/uploads/2017/07/Ghum-by-Habib-Wahid-Ft.-Mithila.mp4" type="video/mp4">
+                    </video>
+                    <h4 style="font-weight: 700;padding: 15px;">Introduction</h4>
+                    <p>This is an excellent course. The content seems very thorough and comprehensive. I like the way all the concepts and configurations are clearly demonstrated in GNS3. There are also a lot of troubleshooting examples and real world applications. I especially enjoyed the practical simlets.z</p>
+                    <div class="lambo1" style="display: flex; flex-direction: column; gap: 20px; background-color: white;  margin-top: 30px; padding: 20px;">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <img src="lambo.jpg" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover;" alt="lambo">
+    </div>
+    <div class="lambop1" style="text-align: center;">
+        <h4>Rajib Raj</h4>
+        <p style="color: gray;">Assistant Teacher <br>
+        I'm an Afro-Latina digital artist originally from Long Island, NY. I love to paint design and photo manipulate in Adobe Photoshop while helping others learn too. Follow me on Instagram or tweet me</p>
+        <div class="icons5" style="display: flex; justify-content: center; gap: 15px;">
+            <i class="ri-facebook-box-fill" style="font-size: 35px; color: rgb(0, 0, 99);"></i>
+            <i class="ri-twitter-fill" style="font-size: 35px;color: skyblue;"></i>
+            <i class="ri-linkedin-box-fill" style="font-size: 35px; color: darkblue;"></i>
+            <i class="ri-instagram-fill" style="font-size: 35px; color: crimson;"></i>
+            <i class="ri-pinterest-fill" style="font-size: 35px;color: maroon;"></i>
+        </div>
+    </div>
+            </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12 order-4"> 
+                     <div class="container-fluid my-3">
+                    <div class="container">
+                                <h5 style="font-weight: 700; padding: 10px;">Course Requirements</h5>
+
+                                <div class="li1" style="text-decoration: none;">
+
+                             <div class="dropdown" style="padding: 10px;border: 1px solid rgb(235, 230, 230);margin-top: 10px;">                    
+                <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%;font-weight: 700; background: none;border: none; padding: 10px;">
+                    Seation 1: Introduction <br>
+                     Video: 13|26:00 Min
+                </button>
+                <ul class="dropdown-menu" style="max-height: 200px; max-width: 100%;">
+                    <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i>1.1 Introduction <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 6:00 Min </a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                </ul>
+                                </div>
+                                    
+                                        <div class="dropdown" style="padding: 10px;border: 1px solid rgb(235, 230, 230);margin-top: 10px;">                    
+                <button class="dropdown-toggle order-" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%;font-weight: 700; background: none;border: none;">
+                    Seation 2: How to start? <br>
+                     Video: 13|26:00 Min
+                </button>
+                <ul class="dropdown-menu" style="max-height: 200px; max-width: 100%;">
+                    <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i>1.1 Introduction <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 6:00 Min </a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                </ul>
+                                    </div>
+                                    
+                                        <div class="dropdown" style="padding: 10px;border: 1px solid rgb(235, 230, 230);margin-top: 10px;">                    
+                <button class="dropdown-toggle order-" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%;font-weight: 700; background: none;border: none;">
+                    Seation 3: How to start? <br>
+                     Video: 13|26:00 Min
+                </button>
+                <ul class="dropdown-menu" style="max-height: 200px; max-width: 100%;">
+                    <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i>1.1 Introduction <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 6:00 Min </a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                </ul>
+                                        </div>
+                                    
+                                        <div class="dropdown" style="padding: 10px;border: 1px solid rgb(235, 230, 230);margin-top: 10px;">                    
+                <button class="dropdown-toggle order-" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%;font-weight: 700; background: none;border: none;">
+                    Seation 5: How to start? <br>
+                     Video: 13|26:00 Min
+                </button>
+                <ul class="dropdown-menu" style="max-height: 200px; max-width: 100%;">
+                    <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i>1.1 Introduction <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 6:00 Min </a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            
+                    
+                </ul>
+                                                </div>
+                                    
+                                        <div class="dropdown" style="padding: 10px;border: 1px solid rgb(235, 230, 230);margin-top: 10px;">                    
+                <button class="dropdown-toggle order-" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%;font-weight: 700; background: none;border: none;">
+                    Seation 6: How to start? <br>
+                     Video: 13|26:00 Min
+                </button>
+                <ul class="dropdown-menu" style="max-height: 200px; max-width: 100%;">
+                    <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i>1.1 Introduction <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 6:00 Min </a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>     
+                </ul>
+                                        </div>
+                                    
+                                        <div class="dropdown" style="padding: 10px;border: 1px solid rgb(235, 230, 230);margin-top: 10px;">                    
+                <button class="dropdown-toggle order-" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%;font-weight: 700; background: none;border: none;">
+                    Seation 7: How to start? <br>
+                     Video: 13|26:00 Min
+                </button>
+                <ul class="dropdown-menu" style="max-height: 200px; max-width: 100%;">
+                    <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i>1.1 Introduction <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 6:00 Min </a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            <li><a class="dropdown-item blue1" href="#"><i class="ri-checkbox-line" style="font-weight: 500; color: orangered"></i> 1.2 What is Website Design <br> <i class="ri-movie-fill" style="color: rgb(197, 196, 196); "></i> 8:00 Min</a></li>
+                            
+                    
+                
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        
+            <!-- <div class="container-fluid" style="background-color: rgb(0, 0, 10);">
+                <div class="container">
+                <div class="row">
+                        <div class="course-view-bottom">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active mb-4" id="overview-tab" data-bs-toggle="tab" href="#overview" role="tab" aria-controls="overview" aria-selected="true">Overview</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mb-4" id="announcement-tab" data-bs-toggle="tab" href="#announcement" role="tab" aria-controls="announcement" aria-selected="false">Announcement</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+                                    <div class="overview-area">
+                                        <div class="overview-head my-4">
+                                            <h6 class="mb-0" style="color: rgba(183, 198, 210, .62);">About this course</h6>
+                                            <p style="color: rgba(183, 198, 210, .62);">You too can make cartoons!</p>
+                                        </div>
+                                        <div class="overview-body"><ul class="lab-ul">
+                                            <li class="d-flex flex-wrap">
+                                                <div class="overview-left">
+                                                    <p class="mb-0" style="color: rgba(183, 198, 210, .62);" >By the numbers</p>
+                                                </div>
+                                                <div class="overview-right">
+                                                    <div class="or-items d-flex flex-wrap">
+                                                        <div class="or-left mr-3" style="color: rgba(183, 198, 210, .62);margin-left: 20px;">Skill level</div>
+                                                        <div class="or-right" style="color: rgba(183, 198, 210, .62);margin-left: 20px;">Beginner Leve</div>
+                                                    </div>
+                                                    <div class="or-items d-flex flex-wrap">
+                                                        <div class="or-left mr-3" style="color: rgba(183, 198, 210, .62);margin-left: 20px;">Students</div>
+                                                        <div class="or-right" style="color: rgba(183, 198, 210, .62);margin-left: 23px;">17118</div>
+                                                    </div>
+                                                    <div class="or-items d-flex flex-wrap">
+                                                            <div class="or-left mr-3" style="color: rgba(183, 198, 210, .62);margin-left: 20px;">Languages</div>
+                                                            <div class="or-right" style="color: rgba(183, 198, 210, .62);margin-left: 13px;">English</div>
+                                                        </div>
+                                                        <div class="or-items d-flex flex-wrap">
+                                                            <div class="or-left mr-3" style="color: rgba(183, 198, 210, .62);margin-left: 20px;">Captions</div>
+                                                            <div class="or-right" style="color: rgba(183, 198, 210, .62);margin-left: 28px;">Yes</div>
+                                                        </div><div class="or-items d-flex flex-wrap">
+                                                            <div class="or-left mr-3" style="color: rgba(183, 198, 210, .62);margin-left: 20px;">Lectures</div>
+                                                            <div class="or-right" style="color: rgba(183, 198, 210, .62);margin-left: 32px;">31</div>
+                                                        </div><div class="or-items d-flex flex-wrap">
+                                                            <div class="or-left mr-3" style="color: rgba(183, 198, 210, .62);margin-left: 20px;">Video</div>
+                                                            <div class="or-right" style="color: rgba(183, 198, 210, .62);margin-left: 46px;">1 total hour</div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    
+                                                    </li>
+                                                    <hr style="color: white;">
+                                                        <li class="d-flex flex-wrap">
+                                                            <div class="overview-left"><p class="mb-0" style="color: rgba(183, 198, 210, .62);">Features</p>
+                                                            </div>
+                                                            <div class="overview-right"><p class="catagory mb-0" style="color: rgba(183, 198, 210, .62); margin-left: 70px;">Standard Website Design</p>
+                                                            </div>
+                                                        </li>
+                                                        <hr style="color: white;">
+                                                        <li class="d-flex flex-wrap rajib ">
+                                                            <div class="overview-left">
+                                                                <p class="mb-0" style="color: rgba(183, 198, 210, .62);margin: 20px 0px;">Description</p></div>
+                                                                <div class="overview-right overview-description"><p class="description mb-3" style="color: rgba(183, 198, 210, .62);">I want to clarify some details right away: This course was created for the training unit of the General-Animation studio. Every new candidate who wants to become a member of our studio, we send to this course so that he can quickly and efficiently become familiar with our methods of work.</p><p class="description mb-3" style="color: rgba(183, 198, 210, .62);">Many members of our community live in developing countries and have access only to the simplest computers. Taking into account the needs of such students, during training we use the Adobe After Effects of 7.0 version, which does not require high-performance hardware, but at the same time allows to master the basic principles of working with the program.</p><p class="description mb-3" style="color: rgba(183, 198, 210, .62);">The main advantage of our animation technique is that we always try to work as efficiently as possible, to get the maximum result at the lowest possible cost.</p><h6 style="color: rgba(183, 198, 210, .62);">What you’ll learn</h6><p style="color: rgba(183, 198, 210, .62);" class="description mb-3">The main advantage of our animation technique is that we always try to work as efficiently as possible, to get the maximum result at the lowest possible cost.</p><ul><li style="color: rgba(183, 198, 210, .62);">Make little cartoons with funny cartoon characters.</li><li style="color: rgba(183, 198, 210, .62);">Many members of our community live in developing countries</li><li style="color: rgba(183, 198, 210, .62);">The main advantage of our animation aking into account the needs of such students, during training we use the Adobe After Effects of 7.0 version, which does not require high-performance hardware</li><li style="color: rgba(183, 198, 210, .62);">the maximum result at the lowest possible</li><li style="color: rgba(183, 198, 210, .62);">The main advantage of our animation</li><li style="color: rgba(183, 198, 210, .62);">the maximum result at the lowest possible cost</li></ul></div><div class="view-details"><span class="more" style="color: rgba(183, 198, 210, .62);">+ See More</span><span class="less" style="color: rgba(183, 198, 210, .62);">- See Less</span>
+                                                            <div class="or-left mr-3" style="color: rgba(183, 198, 210, .62);margin-left: 20px;">Languages</div><div class="or-right" style="color: rgba(183, 198, 210, .62);">English</div></div><div class="or-items d-flex flex-wrap"><div class="or-left mr-3" style="color: rgba(183, 198, 210, .62);">Captions</div><div class="or-right" style="color: rgba(183, 198, 210, .62);">Yes</div></div><div class="or-items d-flex flex-wrap"><div class="or-left mr-3" style="color: rgba(183, 198, 210, .62);">Lectures</div><div class="or-right" style="color: rgba(183, 198, 210, .62);">31</div></div><div class="or-items d-flex flex-wrap"><div class="or-left mr-3" style="color: rgba(183, 198, 210, .62);">Video</div><div class="or-right" style="color: rgba(183, 198, 210, .62);">1 total hour</div></div></div></li><li class="d-flex flex-wrap"><div class="overview-left"><p class="mb-0" style="color: rgba(183, 198, 210, .62);">Features</p></div><div class="overview-right"><p class="catagory mb-0" style="color: rgba(183, 198, 210, .62);">Standard Website Design</p></div></li><li class="d-flex flex-wrap rajib "><div class="overview-left"><p class="mb-0" style="color: rgba(183, 198, 210, .62);">Description</p></div><div class="overview-right overview-description"><p class="description mb-3" style="color: rgba(183, 198, 210, .62);">I want to clarify some details right away: This course was created for the training unit of the General-Animation studio. Every new candidate who wants to become a member of our studio, we send to this course so that he can quickly and efficiently become familiar with our methods of work.</p><p class="description mb-3" style="color: rgba(183, 198, 210, .62);">Many members of our community live in developing countries and have access only to the simplest computers. Taking into account the needs of such students, during training we use the Adobe After Effects of 7.0 version, which does not require high-performance hardware, but at the same time allows to master the basic principles of working with the program.</p><p class="description mb-3" style="color: rgba(183, 198, 210, .62);">The main advantage of our animation technique is that we always try to work as efficiently as possible, to get the maximum result at the lowest possible cost.</p><h6 style="color: rgba(183, 198, 210, .62);">What you’ll learn</h6><p class="description mb-3" style="color: rgba(183, 198, 210, .62);">The main advantage of our animation technique is that we always try to work as efficiently as possible, to get the maximum result at the lowest possible cost.</p><ul><li style="color: rgba(183, 198, 210, .62);">Make little cartoons with funny cartoon characters.</li><li style="color: rgba(183, 198, 210, .62);">Many members of our community live in developing countries</li><li style="color: rgba(183, 198, 210, .62);">The main advantage of our animation aking into account the needs of such students, during training we use the Adobe After Effects of 7.0 version, which does not require high-performance hardware</li><li style="color: rgba(183, 198, 210, .62);">the maximum result at the lowest possible</li><li style="color: rgba(183, 198, 210, .62);">The main advantage of our animation</li><li style="color: rgba(183, 198, 210, .62);">the maximum result at the lowest possible cost</li></ul></div><div class="view-details"><span class="more" style="color: rgba(183, 198, 210, .62);">+ See More</span><span class="less" style="color: rgba(183, 198, 210, .62);">- See Less</span>
+                                                            <div class="or-left mr-3" style="color: rgba(183, 198, 210, .62);margin-left: 20px;">Languages</div>
+                                                            <div class="or-right" style="color: rgba(183, 198, 210, .62);">English</div>
+                                                        </div>
+                                                        <div class="or-items d-flex flex-wrap">
+                                                            <div class="or-left mr-3" style="color: rgba(183, 198, 210, .62);">Captions</div><div class="or-right" style="color: rgba(183, 198, 210, .62);">Yes</div></div><div class="or-items d-flex flex-wrap"><div class="or-left mr-3" style="color: rgba(183, 198, 210, .62);">Lectures</div><div class="or-right" style="color: rgba(183, 198, 210, .62);">31</div></div>
+                                                            <div class="or-items d-flex flex-wrap"><div class="or-left mr-3" style="color: rgba(183, 198, 210, .62);">Video</div>
+                                                            <div class="or-right" style="color: rgba(183, 198, 210, .62);">1 total hour</div>
+                                                        </div>
+                                                    </div>
+                                                    </li>
+                                                    <li class="d-flex flex-wrap"><div class="overview-left"><p class="mb-0" style="color: rgba(183, 198, 210, .62);">Features</p></div>
+                                                                <div class="overview-right"><p class="catagory mb-0" style="color: rgba(183, 198, 210, .62);">Standard Website Design</p>
+                                                            </div>
+                                                            </li>
+                                                            <li class="d-flex flex-wrap rajib ">
+                                                                <div class="overview-left"><p class="mb-0" style="color: rgba(183, 198, 210, .62);">Description</p>
+                                                            </div>
+                                                                <div class="overview-right overview-description" style="color: rgba(183, 198, 210, .62);">
+                                                                    <p class="description mb-3" style="color: rgba(183, 198, 210, .62);">I want to clarify some details right away: This course was created for the training unit of the General-Animation studio. Every new candidate who wants to become a member of our studio, we send to this course so that he can quickly and efficiently become familiar with our methods of work.</p><p class="description mb-3" style="color: rgba(183, 198, 210, .62);">Many members of our community live in developing countries and have access only to the simplest computers. Taking into account the needs of such students, during training we use the Adobe After Effects of 7.0 version, which does not require high-performance hardware, but at the same time allows to master the basic principles of working with the program.</p><p class="description mb-3" style="color: rgba(183, 198, 210, .62);">The main advantage of our animation technique is that we always try to work as efficiently as possible, to get the maximum result at the lowest possible cost.</p><h6 style="color: rgba(183, 198, 210, .62);">What you’ll learn</h6><p class="description mb-3">The main advantage of our animation technique is that we always try to work as efficiently as possible, to get the maximum result at the lowest possible cost.</p><ul><li style="color: rgba(183, 198, 210, .62);">Make little cartoons with funny cartoon characters.</li><li style="color: rgba(183, 198, 210, .62);">Many members of our community live in developing countries</li><li style="color: rgba(183, 198, 210, .62);">The main advantage of our animation aking into account the needs of such students, during training we use the Adobe After Effects of 7.0 version, which does not require high-performance hardware</li><li style="color: rgba(183, 198, 210, .62);">the maximum result at the lowest possible</li><li style="color: rgba(183, 198, 210, .62);">The main advantage of our animation</li><li>the maximum result at the lowest possible cost</li></ul></div><div class="view-details"><span class="more" style="color: rgba(183, 198, 210, .62);">+ See More</span><span class="less" style="color: rgba(183, 198, 210, .62);">- See Less</span>
+
+
+
+
+                        </div></li></ul></div></div></div><div class="tab-pane" id="announcement" role="tabpanel" aria-labelledby="announcement-tab"><div class="announcement-area"><div class="announcement-lists"><ul class="lab-ul"><li><div class="administer-post d-flex flex-wrap"><div class="ap-top mb-2"><div class="ap-items d-flex flex-wrap"><div class="ap-thumb"><img src="hh1.jpg" alt="administer"></div><div class="ap-content"><h5 style="color: rgba(183, 198, 210, .62);">Rajib Raj</h5><p style="color: rgba(183, 198, 210, .62);">Posted an Announcement <span style="color: rgba(183, 198, 210, .62);">24 days ago</span></p></div></div></div><div class="ap-bottom"><h4 style="color: rgba(183, 198, 210, .62);">The best way to study animation is practice!</h4><p style="color: rgba(183, 198, 210, .62);">I want to clarify some details right away: This course was created for the training unit of the General-Animation studio. Every new candidate who wants to become a member of our studio, we send to this course so that he can quickly and efficiently become familiar with our methods of work.</p><p style="color: rgba(183, 198, 210, .62);">Many members of our community live in developing countries and have access only to the simplest computers. Taking into account the needs of such students, during training we use the Adobe After Effects of 7.0 version, which does not require high-performance hardware, but at the same time allows to master the basic principles of working with the program</p></div></div></li><li><div class="student-reviwe d-flex flex-wrap"><div class="student-thumb">
+                            <img src="hh2.jpg" alt="annaunce"></div>
+                            <div class="student-content">
+                                <form action="" method="post"><textarea name="meassage" style="margin-left: 20px;border: none;" id="meassage" cols="30" rows="1" placeholder="Enter Your Comment"></textarea></form></div></div></li><li><div class="student-reviwe d-flex flex-wrap"><div class="student-thumb"><img src="hh3.jpg" alt="annaunce" style="width: 100px;height: 100px;background: none;border: none;"></div><div class="student-content"><h6 style="color: rgba(183, 198, 210, .62);">Bin Tania <span style="color: rgba(183, 198, 210, .62);">24 days ago</span></h6><p style="color: rgba(183, 198, 210, .62);">Many members of our progressively formulate fully researched niche markets vis-a-vis an expanded array of convergence. Uniquely supply orthogonal niches.</p></div></div></li></ul></div></div></div></div></div>
+                        
+                </div> -->
+                
+
+                    <div class="container-fluid" style="background-color: var(--dark-bg);">
+        <div class="course-container">
+            <div class="row">
+                <div class="course-view-bottom">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="overview-tab" data-bs-toggle="tab" href="#overview" role="tab" aria-controls="overview" aria-selected="true">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="announcement-tab" data-bs-toggle="tab" href="#announcement" role="tab" aria-controls="announcement" aria-selected="false">Announcement</a>
+                        </li>
+                    </ul>
+                    
+                    <div class="tab-content" id="myTabContent">
+                        <!-- Overview Tab -->
+                        <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+                            <div class="overview-area">
+                                <div class="overview-head">
+                                    <h6>About this course</h6>
+                                    <p>You too can make cartoons!</p>
+                                </div>
+                                
+                                <div class="overview-body">
+                                    <ul class="list-unstyled">
+                                        <!-- By the Numbers Section -->
+                                        <li class="overview-item">
+                                            <div class="overview-left">
+                                                <p class="mb-0">By the numbers</p>
+                                            </div>
+                                            <div class="overview-right">
+                                                <div class="or-items">
+                                                    <div class="or-left">Skill level</div>
+                                                    <div class="or-right">Beginner Level</div>
+                                                </div>
+                                                <div class="or-items">
+                                                    <div class="or-left">Students</div>
+                                                    <div class="or-right">17,118</div>
+                                                </div>
+                                                <div class="or-items">
+                                                    <div class="or-left">Languages</div>
+                                                    <div class="or-right">English</div>
+                                                </div>
+                                                <div class="or-items">
+                                                    <div class="or-left">Captions</div>
+                                                    <div class="or-right">Yes</div>
+                                                </div>
+                                                <div class="or-items">
+                                                    <div class="or-left">Lectures</div>
+                                                    <div class="or-right">31</div>
+                                                </div>
+                                                <div class="or-items">
+                                                    <div class="or-left">Video</div>
+                                                    <div class="or-right">1 total hour</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                        <!-- Features Section -->
+                                        <li class="overview-item">
+                                            <div class="overview-left">
+                                                <p class="mb-0">Features</p>
+                                            </div>
+                                            <div class="overview-right">
+                                                <p class="mb-0">Standard Website Design</p>
+                                            </div>
+                                        </li>
+                                        
+                                        <!-- Description Section -->
+                                        <li class="overview-item">
+                                            <div class="overview-left">
+                                                <p class="mb-0">Description</p>
+                                            </div>
+                                            <div class="overview-right overview-description">
+                                                <p class="mb-3">I want to clarify some details right away: This course was created for the training unit of the General-Animation studio. Every new candidate who wants to become a member of our studio, we send to this course so that he can quickly and efficiently become familiar with our methods of work.</p>
+                                                <p class="mb-3">Many members of our community live in developing countries and have access only to the simplest computers. Taking into account the needs of such students, during training we use the Adobe After Effects of 7.0 version, which does not require high-performance hardware, but at the same time allows to master the basic principles of working with the program.</p>
+                                                <p class="mb-3">The main advantage of our animation technique is that we always try to work as efficiently as possible, to get the maximum result at the lowest possible cost.</p>
+                                                
+                                                <h6>What you'll learn</h6>
+                                                <p class="mb-3">The main advantage of our animation technique is that we always try to work as efficiently as possible, to get the maximum result at the lowest possible cost.</p>
+                                                <ul>
+                                                    <li>Make little cartoons with funny cartoon characters.</li>
+                                                    <li>Many members of our community live in developing countries</li>
+                                                    <li>The main advantage of our animation taking into account the needs of such students, during training we use the Adobe After Effects of 7.0 version, which does not require high-performance hardware</li>
+                                                    <li>The maximum result at the lowest possible</li>
+                                                    <li>The main advantage of our animation</li>
+                                                    <li>The maximum result at the lowest possible cost</li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Announcement Tab -->
+                        <div class="tab-pane fade" id="announcement" role="tabpanel" aria-labelledby="announcement-tab">
+                            <div class="announcement-area">
+                                <div class="announcement-lists">
+                                    <ul class="list-unstyled">
+                                        <!-- Announcement Post -->
+                                        <li>
+                                            <div class="administer-post">
+                                                <div class="ap-top mb-3">
+                                                    <div class="ap-items d-flex">
+                                                        <div class="ap-thumb">
+                                                            <img src="hh1.jpg" alt="administer">
+                                                        </div>
+                                                        <div class="ap-content">
+                                                            <h5>Rajib Raj</h5>
+                                                            <p>Posted an Announcement <span>24 days ago</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ap-bottom">
+                                                    <h4>The best way to study animation is practice!</h4>
+                                                    <p>I want to clarify some details right away: This course was created for the training unit of the General-Animation studio. Every new candidate who wants to become a member of our studio, we send to this course so that he can quickly and efficiently become familiar with our methods of work.</p>
+                                                    <p>Many members of our community live in developing countries and have access only to the simplest computers. Taking into account the needs of such students, during training we use the Adobe After Effects of 7.0 version, which does not require high-performance hardware, but at the same time allows to master the basic principles of working with the program</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                        <!-- Comment Input -->
+                                        <li>
+                                            <div class="student-reviwe d-flex">
+                                                <div class="student-thumb">
+                                                    <img src="hh2.jpg" alt="annaunce">
+                                                </div>
+                                                <div class="student-content flex-grow-1">
+                                                    <form action="" method="post">
+                                                        <textarea name="meassage" id="meassage" cols="30" rows="1" placeholder="Enter Your Comment"></textarea>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                        <!-- Student Comment -->
+                                        <li>
+                                            <div class="student-reviwe d-flex">
+                                                <div class="student-thumb">
+                                                    <img src="hh3.jpg" alt="annaunce">
+                                                </div>
+                                                <div class="student-content">
+                                                    <h6>Bin Tania <span>24 days ago</span></h6>
+                                                    <p>Many members of our progressively formulate fully researched niche markets vis-a-vis an expanded array of convergence. Uniquely supply orthogonal niches.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background-color: rgb(17, 4, 48);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 my-5">
+                        <h1 style="color: white;">Want Us To Email You About 
+                            Special Offers And Updates?</h1>
+                    </div>
+                    <div class="col-lg-6 my-5" style="display: block;">
+                        <div class="b1 my-2 bb1" style="display: flex;">
+                            <i class="ri-send-plane-fill" style="font-size: 20px;color: green; position: absolute; margin-top: 13px; margin-left: 10px;"></i>
+                              <input   type="email"placeholder="Enter your email" style="border: none; padding-left: 50px; height: 50px; width: 250px;">
+                              <button id="bb2" style="border: none; background-color: green; height: 50px; width: 130px; color: white; font-size: 15px;">Subscribe Now</button>
+                            </div>
+                    </div>
+                </div>
+                 <hr style="color: white;">
+            </div>
+
+                    <div class="footer-container">
+    <div class="container">
+        <div class="row footer-row">
+            <!-- Site Map Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Site Map</h2>
+                <ul class="footer-list">
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Plugins</a></li>
+                    <li><a href="#">Support Forums</a></li>
+                    <li><a href="#">Themes</a></li>
+                </ul>
+            </div>
+            
+            <!-- Useful Links Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Useful Links</h2>
+                <ul class="footer-list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Help Link</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            
+            <!-- Social Contact Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Social Contact</h2>
+                <ul class="footer-list">
+                    <li><a href="#"><i class="ri-facebook-fill"></i> Facebook</a></li>
+                    <li><a href="#"><i class="ri-twitter-fill"></i> Twitter</a></li>
+                    <li><a href="#"><i class="ri-instagram-fill"></i> Instagram</a></li>
+                    <li><a href="#"><i class="ri-youtube-fill"></i> YouTube</a></li>
+                    <li><a href="#"><i class="ri-github-fill"></i> Github</a></li>
+                </ul>
+            </div>
+            
+            <!-- Our Support Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Our Support</h2>
+                <ul class="footer-list">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Paid with Mollie</a></li>
+                    <li><a href="#">Status</a></li>
+                    <li><a href="#">Changelog</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div class="container-fluid my-5">
+            <div class="container" style="display: flex;align-items: center; justify-content: center;">
+                <p>© 2022 <a href="#" class="foot1" style="text-decoration: none; font-weight: 700; color: black;"> Edukon</a>
+                    Designed by <a href="#" class="foot2" style="text-decoration: none; font-weight: 700; color: black;"> CodexCoder</a></p>
+            </div>
+        </div>
+
+     <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Add "See More/See Less" functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const viewDetails = document.querySelector('.view-details');
+            if (viewDetails) {
+                viewDetails.addEventListener('click', function() {
+                    const description = document.querySelector('.overview-description');
+                    const more = this.querySelector('.more');
+                    const less = this.querySelector('.less');
+                    
+                    description.classList.toggle('expanded');
+                    
+                    if (description.classList.contains('expanded')) {
+                        more.style.display = 'none';
+                        less.style.display = 'inline';
+                    } else {
+                        more.style.display = 'inline';
+                        less.style.display = 'none';
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

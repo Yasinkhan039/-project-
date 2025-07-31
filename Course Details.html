@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edukon - Education And LMS React JS
+Template Preview - ThemeForest</title>
+<link rel="shortcut icon" href="https://i.pinimg.com/736x/5b/39/56/5b3956c6be6f944aaac93debf81a5c7a.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Custom CSS for responsiveness */
+        .top-info-bar {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+        
+        .top-info-bar .icon-item {
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .top-info-bar i {
+            margin-right: 5px;
+        }
+        
+        .social-icons {
+            display: flex;
+        }
+        
+        .social-icons a {
+            color: chocolate;
+            margin-left: 10px;
+            font-size: 18px;
+        }
+        
+        .navbar-brand img {
+            max-height: 50px;
+        }
+        
+        .hero-section {
+            padding: 60px 0;
+        }
+        
+        .hero-content {
+            padding: 20px;
+        }
+        
+        .hero-image {
+            text-align: center;
+        }
+        
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        @media (max-width: 991.98px) {
+            .navbar-collapse {
+                padding-left: 0 !important;
+            }
+            
+            .buttonp1 {
+                margin-top: 15px;
+            }
+            
+            .hero-content h1 {
+                font-size: 36px !important;
+                width: 100% !important;
+            }
+            
+            .hero-content p {
+                width: 100% !important;
+            }
+        }
+        
+        @media (max-width: 767.98px) {
+            .top-info-bar .icon-item {
+                margin-bottom: 5px;
+            }
+            
+            .social-icons {
+                justify-content: flex-start;
+                margin-top: 10px;
+            }
+            
+            .hero-content {
+                text-align: center;
+            }
+            
+            .search-bar {
+                margin: 0 auto;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+        <div class="container-fluid" style=" height: 120vh; position: relative; background-image: url(./bg.1.png); background-position: center; background-size: cover; background-repeat: no-repeat;">
+        <!-- Top Black Bar -->
+        <div class="container-fluid fixed-top" style="background-color: black; height: 70px; display: flex; justify-content: space-between; align-items: center;"> 
+            <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/home.html">
+                <img src="https://public-assets.envato-static.com/assets/logos/envato_market-dd390ae860330996644c1c109912d2bf63885fc075b87215ace9b5b4bdc71cc8.svg" style="width:150px;" alt="logo">
+            </a>
+            <button type="button" style="border: none; color: white; background-color: rgb(11, 128, 11); width: 100px; height: 40px;" class="btn"> 
+<a class="header-buy-now e-btn--3d -color-primary" style="text-decoration: none; color: white;" href="https://themeforest.net/checkout/from_item/38286924?license=regular&amp;support=bundle_6month">Buy now</a></button>
+        </div>
+        
+        <!-- Top Info Bar -->
+        <div class="top-info-bar  p-3 mb-5 bg-body-tertiary rounded">
+            <div class="container-fluid d-none d-lg-block" style=" padding: 20px 130px; margin-top: 40px; background-color: white; height: 60px;">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6 col-12 icon-item">
+                        <i class="ri-phone-fill" style="color: orangered;"></i> +800-123-4567 6587
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 icon-item" style=" border-left:  1px solid rgb(233, 233, 233); height: 40px;">
+                        <i class="fas fa-location-dot" style="color: orangered;"></i> Beverley, New York 224 USA
+                    </div> 
+                    <div class="col-lg-2 col-md-6 col-12 icon-item" style="display: flex; gap:20px;border-left:  1px solid rgb(233, 233, 233); height: 45px;">
+                        Find us on :
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; " >
+                            <i class="ri-messenger-fill" style="color: chocolate; font-size: 20px;"></i></a>
+                    </div> 
+                    <div class="col-lg-3 col-md-6 col-12 social-icons">
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:20px;border-left:  1px solid rgb(233, 233, 233); height: 40px; width: 50px; padding-top: 10px;padding-left: 19px;"><i class="ri-twitter-fill"></i></a>
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:30px;border-left:  1px solid rgb(233, 233, 233); height: 40px; width: 50px; padding-top: 10px;padding-left: 19px;"><i class="ri-vimeo-fill"></i></a>
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:20px;border-left:  1px solid rgb(233, 233, 233); height: 40px; width: 50px; padding-top: 10px;padding-left: 19px;"><i class="ri-skype-fill"></i></a>
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:20px;border-left:  1px solid rgb(233, 233, 233); height: 40px; width: 50px; padding-top: 10px;padding-left: 19px;"> <i class="ri-wifi-fill"></i></a>
+                    </div> 
+                    
+                </div>
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+        <div class="container-fluid fixed-top" style=" margin-top: 125px;">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="logo.2.png" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="./HomeOne.html">Home One</a></li>
+                                    <li><a class="dropdown-item blue1" href="./HomeTwo.html">Home Two</a></li>
+                                    <li><a class="dropdown-item blue1" href="./HomeThree.html">Home Three</a></li>
+                                    <li><a class="dropdown-item blue1" href="./HomeFour.html">Home Four</a></li>
+                                    <!-- <li><a class="dropdown-item" href="HomeFive.html">Home Five</a></li> -->
+                                    <!-- <li><a class="dropdown-item" href="HomeSeven.html">Home Six</a></li> -->
+                                    <!-- <li><a class="dropdown-item" href="HomeSeven.html">Home Seven</a></li> -->
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Course
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="./Course.html">Course</a></li>
+                                    <li><a class="dropdown-item blue1" href="./Course Details.html">Course Details</a></li>
+                                    <li><a class="dropdown-item blue1" href="./Course View.html">Course View</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="Blog grid.html">Blog grid</a></li>
+                                    <li><a class="dropdown-item blue1" href="Blog Style 2.html">Blog Style 2</a></li>
+                                    <li><a class="dropdown-item blue1" href="Blog Style 3.html">Blog Style 3</a></li>
+                                    <li><a class="dropdown-item blue1" href="Blog Single.html">Blog Single</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="About.html">About</a></li>
+                                    <li><a class="dropdown-item " href="Team.html">Team</a></li>
+                                    <li><a class="dropdown-item blue1" href="Instructor.html">Instructor</a></li>
+                                    <li><a class="dropdown-item blue1" href="Shop Page.html">Shop Page</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="font-weight: 700;" href="Contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="buttonp1 d-flex">
+                            <button type="button" class="btn btn-light me-2" style="background-color: rgb(233, 231, 231); border: none; width: 90px; height: 50px;">SIGN UP</button>
+                            <button type="button" class="btn" style="background-color: coral; width: 90px; height: 50px; border: none; color: white;">LOG IN</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="Section1">
+                            <button style="border: none; width: 120px;font-size: 15px; height: 35px; border-radius: 5px; background-color: rgb(96, 179, 103); padding: 5px; color: white;"><i class="ri-record-circle-fill" style="font-size: 15px;background: none;color: rgb(115, 204, 122);"></i> Adobe XD</a></button>
+                            <button class="o1">30% Off</button>
+                        </div>
+                        <div class="Section2">
+                            <h1 class="col-lg-10">Advanced Adobe Photoshop For Everyone</h1><br>
+                            <p class="col-lg-9" style="color: gray;">The most impressive is collection of share me online college courses</p>
+                            <div cllas="col-lg-12" style="display: flex; gap:5px;">
+                                <img src="01.jpg" alt="">
+                                <p style="color: gray;">Rajib Raj</p>
+                                <div class="st3" style="">
+                                    <i class="ri-star-half-s-fill" style="color: orange;"></i>
+                                    <i class="ri-star-half-s-fill" style="color: orange;"></i>
+                                    <i class="ri-star-half-s-fill" style="color: orange;"></i>
+                                    <i class="ri-star-half-s-fill" style="color: orange;"></i>
+                                    <i class="ri-star-half-s-fill" style="color: orange;"></i>
+                                </div>
+                                <p style=" color: gray;">03 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="vedio11" style="margin-top: 80px;">
+                            <a href="https://youtu.be/jP649ZHA8Tg" style="text-decoration: none; padding: 20px;"><i class="ri-play-circle-fill bbb1" style="font-size: 110px; position: absolute; display: flex;align-items: center;justify-content: center; margin-top: 210px;margin-left: 230px; "></i><img src="vedio2.jpg" style="width: 32rem; height: 26rem;" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="container-fluid course-hero-section my-5 ">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-sm-12 order-md-1 order-1 mt-5">
+                <div class="course-badges mt-5">
+                    <span class="badge software-badge">Adobe XD</span>
+                    <span class="badge discount-badge">30% Off</span>
+                </div>
+                
+                <div class="course-info">
+                    <h1 class="course-title">Advanced Adobe Photoshop For Everyone</h1>
+                    <p class="course-description">The most impressive collection of shareable online college courses</p>
+                    
+                    <div class="instructor-rating">
+                        <div class="instructor-info">
+                            <img src="01.jpg" alt="Instructor Rajib Raj" class="instructor-avatar">
+                            <span class="instructor-name">Rajib Raj</span>
+                        </div>
+                        
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="ri-star-half-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                            <span class="review-count">(03 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 col-md-12 col-sm-12 order-md-2 order-2 mt-5">
+                <div class="video-preview">
+                    <a href="https://youtu.be/jP649ZHA8Tg" class="video-link" aria-label="Play course preview video">
+                        <img src="vedio2.jpg" alt="Course preview thumbnail" class="video-thumbnail">
+                        <div class="play-button-overlay">
+                            <a class="hole1" href="https://youtu.be/jP649ZHA8Tg"><i class="ri-play-circle-fill play-icon"></i></a>
+                            
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    <div class="container-fluid course-hero-section" style="background-color: rgb(253, 250, 243);">
+        <div class="container " style="display: flex; flex-wrap: wrap;">
+            <div class="col-lg-8 col-md-12 col-sm-12 order-1">
+                <h3 style="font-weight: 700;">Course Overview</h3>
+                <p style="color: gray;">In this course take you from the fundamentals and concepts of 
+                    data modeling all the way through anumber of best practices 
+                    and techniques that you’ll need to build data models in your 
+                    organization. You’ll find many By the end of the course, you’ll 
+                    be all set to not only put these principles to works but also 
+                    to maike the key data modeling and design decisions required 
+                    by the info data modeling that transcend the nuts-and-bolts 
+                    that clearly the key covered the course and design patterns.</p>
+                    <h3 style="font-weight: 700;">What You'll Learn in This Course:</h3>
+                    <p style="color: gray;"><i class="ri-check-fill" style="font-weight: 1000; font-size: 20px; color: orange; padding: 0px 5px;"></i>Ready to begin working on real-world data modeling projects <br>
+                    <i class="ri-check-fill" style="font-weight: 1000; font-size: 20px; color: orange; padding: 0px 5px;"></i>Expanded responsibilities as part of an existing role <br>
+                    <i class="ri-check-fill" style="font-weight: 1000; font-size: 20px; color: orange; padding: 0px 5px;"></i>Be able to create Flyers, Brochures, Advertisements <br>
+                    <i class="ri-check-fill" style="font-weight: 1000; font-size: 20px; color: orange; padding: 0px 5px;"></i>Find a new position involving data modeling. <br>
+                    <i class="ri-check-fill" style="font-weight: 1000; font-size: 20px; color: orange; padding: 0px 5px;"></i>Work with color and Gradients and Grids</p>
+                    <p style="color: gray;">In this course take you from the fundamentals and 
+                        concepts of data modeling all the way through anumber of best practices and techniques that you’ll need to build data models in your organization. You’ll find many examples that clearly the key covered the course</p>
+                        <p style="color: gray;">
+                            By the end of the course, you’ll be all set to not only put these principles to works but also to maike the key data modeling and design decisions required by the info data modeling that transcend the nuts-and-bolts that clearly the key covered the course and design patterns.
+                        </p>
+                    <h3 style="font-weight: 700;">Course Content</h3>
+                    <div class="accordion-item">
+                    <p class="d-inline gap-1" style="display: flex; justify-content: space-between;" >
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" style="height: 50px;padding-top: 10px; color: white;background-color: #60b367;text-decoration: none;border: none;display: flex; justify-content: space-between;"><span> 1.Introduction</span>5lessons,17:37</a>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+              <div class="card card-body" style="background-color: rgb(255, 250, 238);">
+               <ul>
+                <li style="display: flex;justify-content: space-between;">1.1 Welcome to the course 02:30 minutes 
+                   <a class="yellow1" href="https://www.youtube-nocookie.com/embed/jP649ZHA8Tg" style="text-decoration: none">
+                    <i class="ri-play-circle-line" style="font-size: 28px;"></i>
+                </a>
+                </li>
+                <li style="display: flex;justify-content: space-between; background-color: white;">1.2 How to set up your photoshop workspace 08:33 minutes
+                    <a class="yellow1" href="https://www.youtube-nocookie.com/embed/jP649ZHA8Tg" style="text-decoration: none;">
+                    <i class="ri-play-circle-line" style="font-size: 28px;"></i></a>
+                    
+                </li>
+                <li style="display: flex;justify-content: space-between;">1.3 Essential Photoshop Tools 03:38 minutes
+                    <a class="yellow1" href="https://www.youtube-nocookie.com/embed/jP649ZHA8Tg" style="text-decoration: none;">
+                        <i class="ri-play-circle-line" style="font-size: 28px;"></i>
+                    </a>
+                </li>
+                <li style="display: flex;justify-content: space-between; background-color: white;">1.4 Finding inspiration 02:30 minutes
+                    <a class="yellow1" href="https://www.youtube-nocookie.com/embed/jP649ZHA8Tg" style="text-decoration: none;"><i class="ri-play-circle-line" style="font-size: 28px;"></i></a>
+                </li>
+                <li style="display: flex;justify-content: space-between;">1.5 Choosing Your Format 03:48 minutes
+                    <a class="yellow1" href="https://www.youtube-nocookie.com/embed/jP649ZHA8Tg" style="text-decoration: none;"><i class="ri-play-circle-line" style="font-size: 28px;"></i></a>
+                    </i>
+                </li>
+               </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div><br>
+            <div class="accordion-item">
+            <p class="d-inline gap-1" style="display: flex; justify-content: space-between;" >
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" style="height: 50px;padding-top: 10px; color: white;background-color: #60b367;text-decoration: none;border: none;display: flex; justify-content: space-between;"><span> 2.How to Create Mixed Media Art in Adobe Photoshop</span>5 lessons, 52:15</a>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+              <div class="card card-body" style="background-color: rgb(255, 250, 238);">
+               <ul>
+                <li style="display: flex;justify-content: space-between;">2.1 Using Adjustment Layers 06:20 minutes
+                   <a class="yellow1" href="https://www.youtube-nocookie.com/embed/jP649ZHA8Tg" style="text-decoration: none">
+                    <i class="ri-play-circle-line" style="font-size: 28px;"></i>
+                </a>
+                </li>
+                <li style="display: flex;justify-content: space-between; background-color: white;">2.2 Building the composition 07:33 minutes
+                    <a class="yellow1" href="https://www.youtube-nocookie.com/embed/jP649ZHA8Tg" style="text-decoration: none;">
+                    <i class="ri-play-circle-line" style="font-size: 28px;"></i></a>
+                    
+                </li>
+                <li style="display: flex;justify-content: space-between;">2.3 Photoshop Lighting effects 06:30 minutes
+                    <a class="yellow1" href="https://www.youtube-nocookie.com/embed/jP649ZHA8Tg" style="text-decoration: none;">
+                        <i class="ri-play-circle-line" style="font-size: 28px;"></i>
+                    </a>
+                </li>
+                <li style="display: flex;justify-content: space-between; background-color: white;">2.3 Photoshop Lighting effects 06:30 minutes
+                    <a class="yellow1" href="https://www.youtube-nocookie.com/embed/jP649ZHA8Tg" style="text-decoration: none;"><i class="ri-play-circle-line" style="font-size: 28px;"></i></a>
+                </li>
+                <li style="display: flex;justify-content: space-between;">2.5 Finalizing the details 10:30 minutes
+                    <a class="yellow1" href="https://www.youtube-nocookie.com/embed/jP649ZHA8Tg" style="text-decoration: none;"><i class="ri-play-circle-line" style="font-size: 28px;"></i></a>
+                    </i>
+                </li>
+               </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+            
+            <div class="lambo1" style="display: flex; flex-direction: column; gap: 20px; background-color: white; box-shadow: 0px 0px 10px 5px rgb(226, 226, 226); margin-top: 30px; padding: 20px;">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <img src="lambo.jpg" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover;" alt="lambo">
+    </div>
+    <div class="lambop1" style="text-align: center;">
+        <h4>Rajib Raj</h4>
+        <p style="color: gray;">Assistant Teacher <br>
+        I'm an Afro-Latina digital artist originally from Long Island, NY. I love to paint design and photo manipulate in Adobe Photoshop while helping others learn too. Follow me on Instagram or tweet me</p>
+        <div class="icons5" style="display: flex; justify-content: center; gap: 15px;">
+            <i class="ri-facebook-box-fill" style="font-size: 35px; color: rgb(0, 0, 99);"></i>
+            <i class="ri-twitter-fill" style="font-size: 35px;color: skyblue;"></i>
+            <i class="ri-linkedin-box-fill" style="font-size: 35px; color: darkblue;"></i>
+            <i class="ri-instagram-fill" style="font-size: 35px; color: crimson;"></i>
+            <i class="ri-pinterest-fill" style="font-size: 35px;color: maroon;"></i>
+        </div>
+    </div>
+            </div>
+            <div class="fix1" style="box-shadow: 0px 0px 10px 5px rgb(226, 226, 226); 
+            margin-top: 40px">
+                <div class="lambo1" style="display: flex;gap: 20px;background-color: white;">
+               <h4 style="padding-left: 20px;padding-top: 20px;">02 Comment</h4>
+            </div>
+            <div class="border1" style=" border-bottom: 1px solid rgb(236, 236, 236);">
+            </div>
+            <div class="lambo1" style="display: flex;background-color: white;">
+                <img src="nashpathe.jpg" style="margin-left: 10px; width: 80px;height: 80px; margin-top: 30px;" alt="lambo">
+                <div class="lambop1" style=" padding: 20px;">
+                    <h4 style="display: flex;justify-content: space-between;">Linsa Faith 
+                        <span>
+                        <i class="ri-star-half-s-fill" style="color: orange"></i>
+                        <i class="ri-star-half-s-fill" style="color: orange;"></i>
+                        <i class="ri-star-half-s-fill" style="color: orange"></i>
+                        <i class="ri-star-half-s-fill" style="color: orange"></i>
+                        <i class="ri-star-half-s-fill" style="color: orange"></i>
+                        </span>
+                    </h4>
+                    <p style="color: gray;"> Jun 5, 2022 at 12:41 pm <br>
+                    The inner sanctuary, I throw myself down among the tall grass bye the trckli stream and, as I lie close to the earth</p>       
+                </div>
+            </div>
+            <div class="lambo2" style="display: flex;gap: 20px; background-color: white;
+             margin-top: 0px;">
+                <img src="lato.jpg" style="margin-left: 10px; width: 80px;height: 80px;margin-top: 15px;" alt="lambo">
+                <div class="lambop1" style=" padding: 20px;">
+                    <h4 style="display: flex;justify-content: space-between;">Mahdi Mahmud
+                        <span>
+                          <i class="ri-star-half-s-fill" style="color: orange"></i>
+                        <i class="ri-star-half-s-fill" style="color: orange;"></i>
+                        <i class="ri-star-half-s-fill" style="color: orange"></i>
+                        <i class="ri-star-half-s-fill" style="color: orange"></i>
+                        <i class="ri-star-half-s-fill" style="color: orange"></i>
+                        </span>
+                    </h4>
+                    <p style="color: gray;"> Jun 5, 2022 at 12:41 pm <br>
+                    The inner sanctuary, I throw myself down among the tall grass bye the trckli stream and, as I lie close to the earth</p>
+                    </div>
+                </div>
+            </div>
+                
+        
+        <div class="data2 mt-5 p-4" style="box-shadow: 0px 0px 10px 5px rgb(226, 226, 226); background-color: white;">
+    <div class="row" style="border-bottom: 1px solid rgb(218, 218, 218); padding-bottom: 15px;">
+        <h4 style="margin: 0;">Leave a Comment</h4>
+    </div>
+    <div class="add-comment mt-4">
+        <form action="#" method="post" id="commentform" class="comment-form">
+            <input type="text" name="name" class="w-100 my-2 p-3" placeholder="Your Name *" 
+                   style="outline: none; border: none; background-color: rgb(210, 225, 231); width: 100%; box-sizing: border-box;">
+            
+            <input type="email" name="email" class="w-100 my-2 p-3" placeholder="Your email *" 
+                   style="outline: none; border: none; background-color: rgb(210, 225, 231); width: 100%; box-sizing: border-box;">
+            
+            <input type="text" name="subject" class="w-100 my-2 p-3" placeholder="Write a Subject" 
+                   style="outline: none; border: none; background-color: rgb(210, 225, 231); width: 100%; box-sizing: border-box;">
+            
+            <textarea rows="7" type="text" class="w-100 my-2 p-3" name="message" placeholder="Your Message" 
+                      style="color: black; outline: none; border: none; background-color: rgb(210, 225, 231); width: 100%; box-sizing: border-box; resize: vertical; min-height: 150px;"></textarea>
+            
+            <button type="submit" class="lab-btn mt-3" 
+                    style="width: 100%; height: auto; background-color: orange; border-radius: 5px; border: none; padding: 12px 20px; cursor: pointer;">
+                <span style="font-size: 1rem; font-weight: 700; font-family: Arial, Helvetica, sans-serif; color: white;">SEND COMMENT</span>
+            </button>
+        </form>
+    </div>
+</div>
+        </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12 order-2" style="padding: 10px;">
+                <div class="tab1" style="display: flex;justify-content: space-between;padding: 10px;background-color: orange;">
+                    <span style="color: white;font-size: 22px;font-weight: 700;">$89</span>
+                    <span style="color: white;font-size: 20px;"><i class="ri-time-line" style="font-weight: 500;"></i> Limited time offer</span>
+                </div>
+                <div class="tab1" style=" display: flex;justify-content: space-between;padding: 20px;">
+                    <span style="font-weight: 600;"><i class="ri-alarm-line"style="font-weight: 600;"></i> Course level</span>
+                    <span style="font-weight: 600;"> Beginner</span>
+                </div>
+
+                <div class="tab1" style=" display: flex;justify-content: space-between;padding: 20px; background-color: rgb(245, 245, 245);">
+                    <span style="font-weight: 600;"><i class="ri-git-repository-fill" style="font-weight: 600;"></i> Course Duration</span>
+                    <span style="font-weight: 600;"> 10 week</span>
+                </div>
+                <div class="tab1" style=" display: flex;justify-content: space-between;padding: 20px;">
+                    <span style="font-weight: 600;"><i class="ri-signal-wifi-fill" style="font-weight: 600;"></i> Online Class</span>
+                    <span style="font-weight: 600;"> 08</span>
+                </div>
+                <div class="tab1" style="background-color: rgb(245, 245, 245); display: flex;justify-content: space-between;padding: 20px;">
+                    <span style="font-weight: 600;"><i class="fa-duotone fa-solid fa-film" style="font-weight: 600;"></i> Lessions</span>
+                    <span style="font-weight: 600;">18x</span>
+                </div>
+                <div class="tab1" style=" display: flex;justify-content: space-between;padding: 20px;">
+                    <span style="font-weight: 600;"><i class="ri-equalizer-fill" style="font-weight: 600;"></i> Quizzes</span>
+                    <span style="font-weight: 600;">0</span>
+                </div>
+                <div class="tab1" style="background-color: rgb(245, 245, 245); display: flex;justify-content: space-between;padding: 20px;">
+                    <span style="font-weight: 600;"><i class="ri-hourglass-2-fill" style="font-weight: 600;"></i> Pass parcentages</span>
+                    <span style="font-weight: 600;">80</span>
+                </div>
+                <div class="tab1" style=" display: flex;justify-content: space-between;padding: 20px;">
+                    <span style="font-weight: 600;"><i class="ri-pass-valid-line" style="font-weight: 600;"></i> Certificate</span>
+                    <span style="font-weight: 600;">Yes</span>
+                </div>
+                <div class="tab1" style="background-color: rgb(245, 245, 245); display: flex;justify-content: space-between;padding: 20px;">
+                    <span style="font-weight: 600;"> <i class="ri-global-line" style="font-weight: 600;"></i> Language</span>
+                    <span style="font-weight: 600;">English</span>
+                </div>
+                <div class="exchanger" style="background-color: white;padding-left: 20px;">
+                    <h5 style="font-weight: 600;">Secure Payment:</h5>
+                <img src="paypal.jpg" alt="">
+                </div>
+                <div class="share-course" style="padding: 20px;">
+                    <h5 style="font-weight: 600;">Share This Course:</h5>
+                <i class="ri-twitter-fill" style="margin: 10px; border-radius: 100px; background-color: skyblue; color: white; font-size: 35px;"></i>
+                <i class="ri-vimeo-fill" style="border-radius: 100px; background-color: darkblue; color: white; font-size: 35px;"></i>
+                <i class="ri-wifi-fill" style="margin: 10px; border-radius: 100px; background-color: yellow; color: white; font-size: 35px;"></i>
+                </div>
+                <button class="up1" style="margin-left: 20px; width: 150px;height: 40px;border: none;color: white;font-weight: 600;background-color: #60b367;border-radius: 5px;">Enrolled Now</button>
+                <div class="course1" style="padding: 10px;margin-top: 40px;">
+                    <h5 class="course2" style="font-weight: 700; padding: 5px;">Course Categories</h2>
+                        <div class="close1">
+                            <div class="data1" style="display: flex;justify-content: space-between;font-size: 20px; padding: 5px;">
+                                <span class="orange4">Personal Development</span>
+                            <span class="orange4">30</span>
+                            </div>
+                            <div class="data1" style="display: flex;justify-content: space-between;font-size: 20px; padding: 5px;">
+                                 <span class="">Photography</span>
+                            <span class="orange4">20</span>
+                            </div>
+                            <div class="data1" style="display: flex;justify-content: space-between;font-size: 20px; padding: 5px;">
+                                <span class="orange4">Teaching and Academics</span>
+                            <span class="orange4">93</span>
+                            </div>
+                            <div class="data1" style="display: flex;justify-content: space-between;font-size: 20px; padding: 5px;">
+                                <span class="orange4">Art and Design</span>
+                            <span class="orange4">24</span>
+                            </div>
+                            <div class="data1" style="display: flex;justify-content: space-between;font-size: 20px; padding: 5px;">
+                                <span class="orange4">Business</span>
+                            <span class="orange4">28</span>
+                            </div>
+                            <div class="data1" style="display: flex;justify-content: space-between;font-size: 20px; padding: 5px;">
+                                <span class="orange4">Data Science</span>
+                            <span class="orange4">30</span>
+                            </div>
+                            <div class="data1" style="display: flex;justify-content: space-between;font-size: 20px; padding: 5px;">
+                                 <span class="orange4">Development</span>
+                            <span class="orange4">38</span>
+                            </div>
+                            <div class="data1" style="display: flex;justify-content: space-between;font-size: 20px; padding: 5px;">
+                                <span class="orange4">Finance</span>
+                            <span class="orange4">75</span>
+                            </div>
+                            <div class="data1" style="display: flex;justify-content: space-between;font-size: 20px; padding: 5px;">
+                                <span class="orange4">Health & Fitness</span>
+                            <span class="orange4">89</span>
+                            </div>
+                            <div class="data1" style="display: flex;justify-content: space-between;font-size: 20px; padding: 5px;">
+                                <span class="orange4">Lifestyle</span>
+                            <span class="orange4">37</span>
+                            </div>
+                            <div class="data1" style="display: flex;justify-content: space-between;font-size: 20px; padding: 5px;">
+                                <span class="orange4">Marketing</span>
+                            <span class="orange4">18</span>
+                            </div>
+                            <div class="data1" style="display: flex;justify-content: space-between;font-size: 20px; padding: 5px;">
+                                <span class="orange4">Music</span>
+                            <span class="orange4">20</span>
+                            </div>                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="container-fluid" style="background-color: rgb(17, 4, 48);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 my-5">
+                        <h1 style="color: white;">Want Us To Email You About 
+                            Special Offers And Updates?</h1>
+                    </div>
+                    <div class="col-lg-6 my-5" style="display: block;">
+                        <div class="b1 my-2 bb1" style="display: flex;">
+                            <i class="ri-send-plane-fill" style="font-size: 20px;color: green; position: absolute; margin-top: 13px; margin-left: 10px;"></i>
+                              <input   type="email"placeholder="Enter your email" style="border: none; padding-left: 50px; height: 50px; width: 250px;">
+                              <button id="bb2" style="border: none; background-color: green; height: 50px; width: 130px; color: white; font-size: 15px;">Subscribe Now</button>
+                            </div>
+                    </div>
+                </div>
+                 <hr style="color: white;">
+            </div>
+
+                    <div class="footer-container">
+    <div class="container">
+        <div class="row footer-row">
+            <!-- Site Map Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Site Map</h2>
+                <ul class="footer-list">
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Plugins</a></li>
+                    <li><a href="#">Support Forums</a></li>
+                    <li><a href="#">Themes</a></li>
+                </ul>
+            </div>
+            
+            <!-- Useful Links Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Useful Links</h2>
+                <ul class="footer-list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Help Link</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            
+            <!-- Social Contact Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Social Contact</h2>
+                <ul class="footer-list">
+                    <li><a href="#"><i class="ri-facebook-fill"></i> Facebook</a></li>
+                    <li><a href="#"><i class="ri-twitter-fill"></i> Twitter</a></li>
+                    <li><a href="#"><i class="ri-instagram-fill"></i> Instagram</a></li>
+                    <li><a href="#"><i class="ri-youtube-fill"></i> YouTube</a></li>
+                    <li><a href="#"><i class="ri-github-fill"></i> Github</a></li>
+                </ul>
+            </div>
+            
+            <!-- Our Support Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Our Support</h2>
+                <ul class="footer-list">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Paid with Mollie</a></li>
+                    <li><a href="#">Status</a></li>
+                    <li><a href="#">Changelog</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div class="container-fluid my-5">
+            <div class="container" style="display: flex;align-items: center; justify-content: center;">
+                <p>© 2022 <a href="#" class="foot1" style="text-decoration: none; font-weight: 700; color: black;"> Edukon</a>
+                    Designed by <a href="#" class="foot2" style="text-decoration: none; font-weight: 700; color: black;"> CodexCoder</a></p>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+</body>
+</html>
