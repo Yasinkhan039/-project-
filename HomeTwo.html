@@ -1,0 +1,1137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edukon - Education And LMS React JS
+Template Preview - ThemeForest</title>
+<link rel="shortcut icon" href="https://i.pinimg.com/736x/5b/39/56/5b3956c6be6f944aaac93debf81a5c7a.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Custom CSS for responsiveness */
+        .top-info-bar {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+        
+        .top-info-bar .icon-item {
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .top-info-bar i {
+            margin-right: 5px;
+        }
+        
+        .social-icons {
+            display: flex;
+        }
+        
+        .social-icons a {
+            color: chocolate;
+            margin-left: 10px;
+            font-size: 18px;
+        }
+        
+        .navbar-brand img {
+            max-height: 50px;
+        }
+        
+        .hero-section {
+            padding: 60px 0;
+        }
+        
+        .hero-content {
+            padding: 20px;
+        }
+        
+        .hero-image {
+            text-align: center;
+        }
+        
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        @media (max-width: 991.98px) {
+            .navbar-collapse {
+                padding-left: 0 !important;
+            }
+            
+            .buttonp1 {
+                margin-top: 15px;
+            }
+            
+            .hero-content h1 {
+                font-size: 36px !important;
+                width: 100% !important;
+            }
+            
+            .hero-content p {
+                width: 100% !important;
+            }
+        }
+        
+        @media (max-width: 767.98px) {
+            .top-info-bar .icon-item {
+                margin-bottom: 5px;
+            }
+            
+            .social-icons {
+                justify-content: flex-start;
+                margin-top: 10px;
+            }
+            
+            .hero-content {
+                text-align: center;
+            }
+            
+            .search-bar {
+                margin: 0 auto;
+            }
+        }
+
+
+
+
+
+        .features-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .feature-row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .feature-card {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        border: 2px solid white;
+        width: 19rem;
+        background-color: white;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .feature-card img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+
+    .feature-content {
+        flex: 1;
+    }
+
+    .feature-content h4 {
+        margin: 0 0 5px 0;
+        font-size: 1.1rem;
+    }
+
+    .feature-content p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: #666;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 1200px) {
+        .features-container {
+            margin-top: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .feature-row {
+            flex-direction: column;
+            align-items: center;
+            display:grid;
+        }
+        
+        .feature-card {
+            width: 100%;
+            max-width: 300px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .features-container {
+            margin-top: 30px;
+            gap: 15px;
+
+        }
+        
+        .feature-card {
+            flex-direction: column;
+            text-align: center;
+            gap: 10px;
+        }
+    }
+
+    </style>
+  </head>
+  <body>
+     <div class="container-fluid" style="position: relative; background-image: url(./bg.1.png); background-position: center; background-size: cover; background-repeat: no-repeat;">
+        <!-- Top Black Bar -->
+        <div class="container-fluid fixed-top" style="background-color: black; height: 70px; display: flex; justify-content: space-between; align-items: center;"> 
+            <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/home.html">
+                <img src="https://public-assets.envato-static.com/assets/logos/envato_market-dd390ae860330996644c1c109912d2bf63885fc075b87215ace9b5b4bdc71cc8.svg" style="width:150px;" alt="logo">
+            </a>
+            <button type="button" style="border: none; color: white; background-color: rgb(11, 128, 11); width: 100px; height: 40px;" class="btn"><a class="header-buy-now e-btn--3d -color-primary" href="https://themeforest.net/checkout/from_item/38286924?license=regular&amp;support=bundle_6month" style="text-decoration: none; color: white;">Buy now</a></button>
+        </div>
+        
+        <!-- Top Info Bar -->
+        <!-- <div class="top-info-bar shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+            <div class="container-fluid d-none d-lg-block" style=" padding: 20px 130px; margin-top: 40px; background-color: white; height: 60px;">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6 col-12 icon-item">
+                        <i class="ri-phone-fill"></i> +800-123-4567 6587
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 icon-item" style=" border-left:  1px solid rgb(116, 116, 116); height: 30px;">
+                        <i class="fas fa-location-dot"></i> Beverley, New York 224 USA
+                    </div> 
+                    <div class="col-lg-2 col-md-6 col-12 icon-item" style="display: flex; gap:20px;border-left:  1px solid rgb(99, 97, 97); height: 30px;">
+                        Find us on :
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; " ><i class="ri-messenger-fill" style="color: chocolate; font-size: 20px;"></i></a>
+                    </div> 
+                    <div class="col-lg-3 col-md-6 col-12 social-icons">
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:20px;border-left:  1px solid rgb(80, 78, 78); height: 30px;"><i class="ri-twitter-fill"></i></a>
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:20px;border-left:  1px solid rgb(143, 143, 143);height: 30px;"><i class="ri-vimeo-fill"></i></a>
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:20px;border-left:  1px solid rgb(82, 81, 81); height: 30px;"><i class="ri-skype-fill"></i></a>
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:20px;border-left:  1px solid rgb(73, 73, 73); height: 30px;"> <i class="ri-wifi-fill"></i></a>
+                    </div> 
+                    <hr>
+                </div>
+            </div>
+        </div> -->
+        
+        <!-- Navigation -->
+        <div class="container-fluid fixed-top" style=" margin-top: 70px;">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="logo.2.png" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="./HomeOne.html">Home One</a></li>
+                                    <li><a class="dropdown-item blue1" href="./HomeTwo.html">Home Two</a></li>
+                                    <li><a class="dropdown-item blue1" href="./HomeThree.html">Home Three</a></li>
+                                    <li><a class="dropdown-item blue1" href="./HomeFour.html">Home Four</a></li>
+                                    <!-- <li><a class="dropdown-item" href="HomeFive.html">Home Five</a></li> -->
+                                    <!-- <li><a class="dropdown-item" href="HomeSeven.html">Home Six</a></li> -->
+                                    <!-- <li><a class="dropdown-item" href="HomeSeven.html">Home Seven</a></li> -->
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Course
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="./Course.html">Course</a></li>
+                                    <li><a class="dropdown-item blue1" href="./Course Details.html">Course Details</a></li>
+                                    <li><a class="dropdown-item blue1" href="./Course View.html">Course View</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="Blog grid.html">Blog grid</a></li>
+                                    <li><a class="dropdown-item blue1" href="Blog Style 2.html">Blog Style 2</a></li>
+                                    <li><a class="dropdown-item blue1" href="Blog Style 3.html">Blog Style 3</a></li>
+                                    <li><a class="dropdown-item blue1" href="Blog Single.html">Blog Single</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="Contact.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="About.html">About</a></li>
+                                    <li><a class="dropdown-item " href="Team.html">Team</a></li>
+                                    <li><a class="dropdown-item blue1" href="Instructor.html">Instructor</a></li>
+                                    <li><a class="dropdown-item blue1" href="Shop Page.html">Shop Page</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="font-weight: 700;" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="buttonp1 d-flex">
+                            <button type="button" class="btn btn-light me-2" style="background-color: rgb(233, 231, 231); border: none; width: 90px; height: 50px;">SIGN UP</button>
+                            <button type="button" class="btn" style="background-color: coral; width: 90px; height: 50px; border: none; color: white;">LOG IN</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+        </div>
+
+        <!-- Hero Section -->
+        <div class="container-fluid hero-section">
+            <div class="container">
+                <div class="row align-items-center">
+                     <div class="col-lg-6 col-md-12 col-12 hero-image">
+                        <img class="Hero2"  style="margin-top: 100px;" src="02.02.png"  alt="Online Learning">
+                        </div>
+                    <div class="col-lg-6 col-md-12 col-12 hero-content">
+                        <h3 style="font-weight: 700; color: rgb(221, 100, 14);">Online education</h3>
+                        <h1 style="font-size: 45px; font-weight: 700; width: 350px;">Learn The Skills You Need To Succeed</h1>
+                        <p style="width: 350px; padding-top: 20px;">Free online courses from the world's Leading experts. join 18+ million Learners today.</p>
+                        <div class="input-group search-bar" style="width: 370px; margin-top: 40px;">
+                            <input type="text" class="form-control" placeholder="keywords of your course" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-outline-secondary" style="border: none; background-color: rgb(233, 115, 31); color: white; width: 100px; height: 50px;" type="button" id="button-addon2">Search</button>
+                        </div>
+                        <div class="container" style="margin-top: 40px; display: flex;">
+                             <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                <p style="color: rgb(82, 82, 82); font-family: Arial, Helvetica, sans-serif;">Most Popular :</p> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12" style=" margin-bottom: 100px;">
+                            <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html" style="padding-left: 20px; text-decoration: none; color: black; font-family: Arial, Helvetica, sans-serif;">Figma</a>
+                            <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html" style="margin-left: 10px; text-decoration: none; color: black; font-family: Arial, Helvetica, sans-serif;">Adobe XD</a>
+                            <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html" style="margin-left: 10px; text-decoration: none; color: black; font-family: Arial, Helvetica, sans-serif;">illustration</a>
+                            <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html" style="margin-left: 10px; text-decoration: none; color: black; font-family: Arial, Helvetica, sans-serif;">Photoshop</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>       
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col" style="display: flex; gap: 20px;">
+                    <div class="m1">
+                        <img src="logo.4.jpeg" alt="">
+                    </div>
+                    <div class="mm1">
+                        <h5>30,000+ Online Courses</h5>
+                        <p   style="width: 220px; color: grey; font-weight: 500;">Grow your knowledge and 
+                        your training and tools.</p>
+                    </div>
+                </div>
+                  <div class="col" style="display: flex; gap: 20px;">
+                    <div class="m1">
+                        <img src="logo.12.jpeg" alt="">
+                    </div>
+                    <div class="mm1">
+                        <h5>Experts Teachers</h5>
+                        <p style="width: 220px; color: grey; font-weight: 500;">Grow your knowledge and 
+                        your training and tools.</p>
+                    </div>
+                </div>
+                  <div class="col" style="display: flex; gap: 20px;">
+                    <div class="m1">
+                        <img src="logo.6.jpeg" alt="">
+                    </div>
+                    <div class="mm1">
+                        <h5>Lifetime Access</h5>
+                        <p   style="width: 220px; color: grey; font-weight: 500;">Grow your knowledge and 
+                        your training and tools.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: rgb(253, 251, 251);">
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-12 text-center">
+                <p style="font-size: 20px; color: rgb(228, 111, 28); font-weight: 700;">Featured Courses</p>
+                <h1 style="font-weight: 700;">Pick A Course To Get Started</h1>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Course 1 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <div class="card h-100" style="border: none;">
+                    <img src="client.1.jpeg" class="card-img-top img-fluid" alt="client.1" style="height: 240px; object-fit: cover;">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <button style="border: none; width: 120px; font-size: 15px; height: 35px; border-radius: 5px; background-color: orangered; color: white; font-weight: 700;">
+                                Adobe XD
+                            </button>
+                            <div class="d-flex align-items-center">
+                                <div class="icon7s" style="display: flex; color: gold;">
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                </div>
+                                <span style="color: rgb(156, 155, 155); font-weight: 400; margin-left: 5px;">03 reviews</span>
+                            </div>
+                        </div>
+                        <h5 class="card-title">Fundamentals of Adobe XD Theory Learn New</h5>
+                        <div class="d-flex justify-content-between my-3">
+                            <span><i class="fa-duotone fa-solid fa-film" style="color: orangered;"></i> 18x Lesson</span>
+                            <span><i class="ri-signal-wifi-fill" style="color: orangered;"></i> Online Class</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div class="d-flex align-items-center">
+                                <img src="01.jpg" style="height: 40px; width: 40px; border-radius: 50%; object-fit: cover;" alt="instructor">
+                                <span class="ms-2">William Smith</span>
+                            </div>
+                            <a href="#" style="color: inherit; text-decoration: none;">
+                                Read More <i class="ri-share-box-fill" style="color: orangered;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <div class="card h-100" style="border: none;">
+                    <img src="02.jpeg" class="card-img-top img-fluid" alt="client.1" style="height: 240px; object-fit: cover;">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <button style="border: none; width: 120px; font-size: 15px; height: 35px; border-radius: 5px; background-color: rgb(37, 121, 44); color: white; font-weight: 700;">
+                                Adobe XD
+                            </button>
+                            <div class="d-flex align-items-center">
+                                <div class="icon7s" style="display: flex; color: gold;">
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                </div>
+                                <span style="color: rgb(156, 155, 155); font-weight: 400; margin-left: 5px;">03 reviews</span>
+                            </div>
+                        </div>
+                        <h5 class="card-title">Fundamentals of Adobe XD Theory Learn New</h5>
+                        <div class="d-flex justify-content-between my-3">
+                            <span><i class="fa-duotone fa-solid fa-film" style="color: orangered;"></i> 18x Lesson</span>
+                            <span><i class="ri-signal-wifi-fill" style="color: orangered;"></i> Online Class</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div class="d-flex align-items-center">
+                                <img src="02.jpg" style="height: 40px; width: 40px; border-radius: 50%; object-fit: cover;" alt="instructor">
+                                <span class="ms-2">William Smith</span>
+                            </div>
+                            <a href="#" style="color: inherit; text-decoration: none;">
+                                Read More <i class="ri-share-box-fill" style="color: orangered;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <div class="card h-100" style="border: none;">
+                    <img src="03.jpeg" class="card-img-top img-fluid" alt="client.1" style="height: 240px; object-fit: cover;">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <button style="border: none; width: 120px; font-size: 15px; height: 35px; border-radius: 5px; background-color: rgb(188, 214, 72); color: white; font-weight: 700;">
+                                Adobe XD
+                            </button>
+                            <div class="d-flex align-items-center">
+                                <div class="icon7s" style="display: flex; color: gold;">
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                </div>
+                                <span style="color: rgb(156, 155, 155); font-weight: 400; margin-left: 5px;">03 reviews</span>
+                            </div>
+                        </div>
+                        <h5 class="card-title">Fundamentals of Adobe XD Theory Learn New</h5>
+                        <div class="d-flex justify-content-between my-3">
+                            <span><i class="fa-duotone fa-solid fa-film" style="color: orangered;"></i> 18x Lesson</span>
+                            <span><i class="ri-signal-wifi-fill" style="color: orangered;"></i> Online Class</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div class="d-flex align-items-center">
+                                <img src="03.jpg" style="height: 40px; width: 40px; border-radius: 50%; object-fit: cover;" alt="instructor">
+                                <span class="ms-2">William Smith</span>
+                            </div>
+                            <a href="#" style="color: inherit; text-decoration: none;">
+                                Read More <i class="ri-share-box-fill" style="color: orangered;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 4 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <div class="card h-100" style="border: none;">
+                    <img src="04.jpeg" class="card-img-top img-fluid" alt="client.1" style="height: 240px; object-fit: cover;">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <button style="border: none; width: 120px; font-size: 15px; height: 35px; border-radius: 5px; background-color: rgb(161, 35, 145); color: white; font-weight: 700;">
+                                Adobe XD
+                            </button>
+                            <div class="d-flex align-items-center">
+                                <div class="icon7s" style="display: flex; color: gold;">
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                </div>
+                                <span style="color: rgb(156, 155, 155); font-weight: 400; margin-left: 5px;">03 reviews</span>
+                            </div>
+                        </div>
+                        <h5 class="card-title">Fundamentals of Adobe XD Theory Learn New</h5>
+                        <div class="d-flex justify-content-between my-3">
+                            <span><i class="fa-duotone fa-solid fa-film" style="color: orangered;"></i> 18x Lesson</span>
+                            <span><i class="ri-signal-wifi-fill" style="color: orangered;"></i> Online Class</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div class="d-flex align-items-center">
+                                <img src="04.jpg" style="height: 40px; width: 40px; border-radius: 50%; object-fit: cover;" alt="instructor">
+                                <span class="ms-2">William Smith</span>
+                            </div>
+                            <a href="#" style="color: inherit; text-decoration: none;">
+                                Read More <i class="ri-share-box-fill" style="color: orangered;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 5 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <div class="card h-100" style="border: none;">
+                    <img src="05.jpeg" class="card-img-top img-fluid" alt="client.1" style="height: 240px; object-fit: cover;">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <button style="border: none; width: 120px; font-size: 15px; height: 35px; border-radius: 5px; background-color: rgb(90, 217, 240); color: white; font-weight: 700;">
+                                Adobe XD
+                            </button>
+                            <div class="d-flex align-items-center">
+                                <div class="icon7s" style="display: flex; color: gold;">
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                </div>
+                                <span style="color: rgb(156, 155, 155); font-weight: 400; margin-left: 5px;">03 reviews</span>
+                            </div>
+                        </div>
+                        <h5 class="card-title">Fundamentals of Adobe XD Theory Learn New</h5>
+                        <div class="d-flex justify-content-between my-3">
+                            <span><i class="fa-duotone fa-solid fa-film" style="color: orangered;"></i> 18x Lesson</span>
+                            <span><i class="ri-signal-wifi-fill" style="color: orangered;"></i> Online Class</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div class="d-flex align-items-center">
+                                <img src="05.jpg" style="height: 40px; width: 40px; border-radius: 50%; object-fit: cover;" alt="instructor">
+                                <span class="ms-2">William Smith</span>
+                            </div>
+                            <a href="#" style="color: inherit; text-decoration: none;">
+                                Read More <i class="ri-share-box-fill" style="color: orangered;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 6 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <div class="card h-100" style="border: none;">
+                    <img src="06.jpeg" class="card-img-top img-fluid" alt="client.1" style="height: 240px; object-fit: cover;">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <button style="border: none; width: 120px; font-size: 15px; height: 35px; border-radius: 5px; background-color: rgb(235, 172, 57); color: white; font-weight: 700;">
+                                Adobe XD
+                            </button>
+                            <div class="d-flex align-items-center">
+                                <div class="icon7s" style="display: flex; color: gold;">
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                    <i class="ri-star-s-fill"></i>
+                                </div>
+                                <span style="color: rgb(156, 155, 155); font-weight: 400; margin-left: 5px;">03 reviews</span>
+                            </div>
+                        </div>
+                        <h5 class="card-title">Fundamentals of Adobe XD Theory Learn New</h5>
+                        <div class="d-flex justify-content-between my-3">
+                            <span><i class="fa-duotone fa-solid fa-film" style="color: orangered;"></i> 18x Lesson</span>
+                            <span><i class="ri-signal-wifi-fill" style="color: orangered;"></i> Online Class</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div class="d-flex align-items-center">
+                                <img src="06.jpg" style="height: 40px; width: 40px; border-radius: 50%; object-fit: cover;" alt="instructor">
+                                <span class="ms-2">William Smith</span>
+                            </div>
+                            <a href="#" style="color: inherit; text-decoration: none;">
+                                Read More <i class="ri-share-box-fill" style="color: orangered;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid my-5">
+    <div class=" container">
+        <div class="row">
+            <h4 style="display: flex; align-items: center; justify-content: center; color: orangered;">PopularCategory<h4>
+                <h1 style="display: flex; align-items: center; justify-content: center;">Popular Category For Learn</h1>
+            <div class="col my-5" style="display: flex; align-items: center;justify-content: center; position: relative;">
+                <img src="pick1" style="width: 16rem;" alt="">
+                <img src="07.jpg" style="position: absolute;display: block;" alt="">
+                <p style="position: absolute; margin-top: 135px; color: white;" >Computer Science</p>
+                <p style="position: absolute; margin-top: 180px; color: white;" >24 Course</p>
+            </div>
+            <div class="col my-5" style="display: flex; align-items: center;justify-content: center; position: relative;">
+                <img src="pick2" style="width: 16rem;" alt="">
+                <img src="08.jpg" style="position: absolute;" alt="">
+                <p style="position: absolute; margin-top: 135px; color: white;" >Civil Engineering</p>
+                <p style="position: absolute; margin-top: 180px; color: white;" >63 Course</p>
+            </div>
+            <div class="col my-5" style="display: flex; align-items: center;justify-content: center; position: relative;">
+                <img src="pick3" style="width: 16rem;" alt="">
+                <img src="09.jpg" style="position: absolute;" alt="">
+                <p style="position: absolute; margin-top: 135px; color: white;" >Business Analysis</p>
+                <p style="position: absolute; margin-top: 180px; color: white;" >43 Course</p>
+            </div>
+            <div class="col my-5" style="display: flex; align-items: center;justify-content: center; position: relative;">
+                <img src="pick4" style="width: 16rem;" alt="">
+                <img src="10.jpg" style="position: absolute;" alt="">
+                <p style="position: absolute; margin-top: 135px; color: white;" >Data Science Analytics</p>
+                <p style="position: absolute; margin-top: 180px; color: white;" >50 Course</p>
+            </div>
+            <div class="col my-5" style="display: flex; align-items: center;justify-content: center; position: relative;">
+                <img src="pick5" style="width: 16rem;" alt="">
+                <img src="11.jpg" style="position: absolute;" alt="">
+                <p style="position: absolute; margin-top: 135px; color: white;" >Learning Management</p>
+                <p style="position: absolute; margin-top: 180px; color: white;" >27 Course</p>
+            </div>
+            <div class="col my-5" style="display: flex; align-items: center;justify-content: center; position: relative;">
+                <img src="pick6" style="width: 16rem;" alt="">
+                <img src="12.jpg" style="position: absolute;" alt="">
+                <p style="position: absolute; margin-top: 135px; color: white;" >Computer Engineering</p>
+                <p style="position: absolute; margin-top: 180px; color: white;" >87 Course</p>
+            </div>
+            <div class="col" style="display: flex; align-items: center;justify-content: center; position: relative;">
+                <img src="pick8" style="width: 16rem;" alt="">
+                <img src="13.jpg" style="position: absolute;" alt="">
+                <p style="position: absolute; margin-top: 135px; color: white;" >Design Architect</p>
+                <p style="position: absolute; margin-top: 180px; color: white;" >15 Course</p>
+            </div>                
+            <div class="col my-5" style="display: flex; align-items: center;justify-content: center; position: relative;">
+              <img src="pick9" style="width: 16rem;" alt="">
+            <img src="14.jpg" style="position: absolute;" alt="">
+            <p style="position: absolute; margin-top: 135px; color: white;" >Foreign Language</p>
+                <p style="position: absolute; margin-top: 180px; color: white;" >58 Course</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+     <div class="container-fluid my-5"  style="background-image: url(bg2.png);">
+    <div class="container">
+        <div class="col-12 text-center mb-5 py-3">
+            <p style="font-weight: 700; font-size: 23px; color: orangered;">Loved by 200,000+ students</p>
+            <h1 style="font-weight: 700;">Students Community Feedback</h1>
+        </div>
+
+        <div class="container-fluid px-0">
+            <div class="container">
+            <div class="row">
+                <!-- Video Column -->
+                <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+                    <a href="https://www.youtube.com/embed/MU3qrgR2Kkc" style="text-decoration: none; position: relative; display: block;">
+                        <div style="position: relative;">
+                            <img src="./tab.jpg" alt="" class="img-fluid w-100">
+                            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                                <i class="ri-play-circle-fill" style="font-size: 4rem; color: white; background-color: black; border-radius: 50%;"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Cards Column -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="row">
+                        <!-- Card 1 -->
+                        <div class="col-lg-6 col-md-6 mb-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-start">
+                                        <div class="me-3">
+                                            <img src="01. (2).jpg" alt="Oliver Beddows" class="img-fluid rounded-circle" style="width: 70px; height: 70px; object-fit: cover;">
+                                        </div>
+                                        <div>
+                                            <h5 class="card-title mb-1">
+                                                Oliver Beddows
+                                                <span class="ms-2">
+                                                    <i class="ri-star-fill" style="color: orangered;"></i>
+                                                    <i class="ri-star-fill" style="color: orangered;"></i>
+                                                    <i class="ri-star-fill" style="color: orangered;"></i>
+                                                    <i class="ri-star-fill" style="color: orangered;"></i>
+                                                    <i class="ri-star-half-fill" style="color: orangered;"></i>
+                                                </span>
+                                            </h5>
+                                            <h6 class="card-subtitle text-muted">UX designer</h6>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <p class="card-text">
+                                        Rapidiously build collaboration and ideas sharing
+                                        viaing and bleeding edgeing interfaces fnergstcally
+                                        plagiarize teams anbuilding paradgms whereas going
+                                        forward process and monetze
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Card 2 -->
+                        <div class="col-lg-6 col-md-6 mb-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-start">
+                                        <div class="me-3">
+                                            <img src="01.02.jpg" alt="Madley Pondor" class="img-fluid rounded-circle" style="width: 70px; height: 70px; object-fit: cover;">
+                                        </div>
+                                        <div>
+                                            <h5 class="card-title mb-1">
+                                                Madley Pondor
+                                                <span class="ms-2">
+                                                    <i class="ri-star-fill" style="color: orangered;"></i>
+                                                    <i class="ri-star-fill" style="color: orangered;"></i>
+                                                    <i class="ri-star-fill" style="color: orangered;"></i>
+                                                    <i class="ri-star-fill" style="color: orangered;"></i>
+                                                    <i class="ri-star-half-fill" style="color: orangered;"></i>
+                                                </span>
+                                            </h5>
+                                            <h6 class="card-subtitle text-muted">UX designer</h6>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <p class="card-text">
+                                        Rapidiously build collaboration and ideas sharing
+                                        viaing and bleeding edgeing interfaces fnergstcally
+                                        plagiarize teams anbuilding paradgms whereas going
+                                        forward process and monetze
+                                    </p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+      <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col col-12 my-5">
+                    <p style="display: flex; align-items: center; justify-content: center; font-weight: 600; color: orangered;">Loved by 200,000+ students</p>
+                    <h2 style="display: flex; align-items: center; justify-content: center; font-weight: 700;">Classes Taught By Real Creators</h2>
+                </div>
+                <div class="col my-5">
+                    <div class="card" style="width: 15rem; background-color: white; padding: 2px;">
+                        <img src="01 (1).jpg" style="padding: 20px;" class="card-img-top" alt="">
+                        <div class="card-body">
+                        <h4 class="card-title" style="padding-left: 20px;">
+                            <a href="#" style="text-decoration: none;font-weight: 700; color: black;">Emilee Logan</a></h4>
+                        <p class="card-text">Master of Education Degree</p>
+                        <h5 style="padding-left: 35px;">
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                        </h5>
+                        <hr>
+                        <div class="room" style="display: flex; padding: px; justify-content: space-between;">
+                            <p><i class="ri-git-repository-fill"></i> 08courses</p>
+                            <p><i class="ri-group-fill"></i> 30students</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                 <div class="col my-5">
+                    <div class="card" style="width: 15rem; background-color: white; padding: 2px;">
+                        <img src="02(2).jpg" style="padding: 20px;" class="card-img-top" alt="">
+                        <div class="card-body">
+                        <h4 class="card-title" style="padding-left: 20px;">
+                            <a href="#" style="text-decoration: none;font-weight: 700; color: black;">Donald Logan</a></h4>
+                        <p class="card-text">Master of Education Degree</p>
+                        <h5 style="padding-left: 35px;">
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                        </h5>
+                        <hr>
+                        <div class="room" style="display: flex; justify-content: space-between;">
+                            <p><i class="ri-git-repository-fill"></i> 08courses</p>
+                            <p><i class="ri-group-fill"></i> 30students</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                 <div class="col my-5">
+                    <div class="card" style="width: 15rem; background-color: white; padding: 2px;">
+                        <img src="03 (3).jpg" style="padding: 20px;" class="card-img-top" alt="">
+                        <div class="card-body">
+                        <h4 class="card-title" style="padding-left: 30px;">
+                            <a href="#" style="text-decoration: none;font-weight: 700; color: black;">Oliver Porter</a></h4>
+                        <p class="card-text">Master of Education Degree</p>
+                        <h5 style="padding-left: 35px;">
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                        </h5>
+                        <hr>
+                        <div class="room" style="display: flex; justify-content: space-between;">
+                            <p><i class="ri-git-repository-fill"></i> 08courses</p>
+                            <p><i class="ri-group-fill"></i> 30students</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+               
+                 <div class="col my-5">
+                    <div class="card" style="width: 15rem; background-color: white; padding: 2px;">
+                        <img src="04 (4).jpg" style="padding: 20px;" class="card-img-top" alt="">
+                        <div class="card-body">
+                        <h4 class="card-title" style="padding-left: 30px;">
+                            <a href="#" style="text-decoration: none;font-weight: 700; color: black;">Nahla Jones</a></h4>
+                        <p class="card-text">Master of Education Degree</p>
+                        <h5 style="padding-left: 35px;">
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                            <i class="ri-star-half-fill" style="color: orangered;"></i>
+                        </h5>
+                        <hr>
+                        <div class="room" style="display: flex; justify-content: space-between;">
+                            <p><i class="ri-git-repository-fill"></i> 08courses</p>
+                            <p><i class="ri-group-fill"></i> 30students</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="container" style="display: flex; align-items: center;justify-content: center;">
+                    <p style="font-weight: 500; font-size: 18px; color: rgb(141, 139, 139);">Want to help people learn, grow and achieve more in life?
+                        <a href="#" style="text-decoration: none; color: orangered; font-weight: 700; font-size: 18px;"> Become an instructor</a></p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    <div class="container-fluid my-5">
+                <div class="row" style="display: flex; position: relative;">
+                    <div class="col-lg-6" style=" height: 28rem; background-color: rgb(96, 233, 119); padding: 20px;">
+                        <h1 style="display: flex;align-items: center;justify-content: center;font-weight: 700; height: 15rem; color: white;">Build Your Project<br> Management Skills OnlineAnytime</h1>
+                        <button type="button" class="btn btn-light" style="width: 150px; font-weight: 700; color: rgb(96, 233, 119);;">Sign Up Now</button>
+                    </div>
+                     <div class="col-lg-6" style=" height: 28rem; background-color: rgb(0, 0, 0); padding: 20px;"></div>
+                    
+                      <div class="features-container" style="position: absolute; padding-left: 300px;">
+    <div class="feature-row">
+        <div class="feature-card">
+            <img src="logo13.jpg" alt="Skilled Instructors">
+            <div class="feature-content">
+                <h4>Skilled Instructors</h4>
+                <p>You pick the schedule.</p>
+            </div>
+        </div>
+
+        <div class="feature-card">
+            <img src="logo16.jpg" alt="Get Certificate">
+            <div class="feature-content">
+                <h4>Get Certificate</h4>
+                <p>You pick the schedule.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="feature-row">
+        <div class="feature-card">
+            <img src="logo.4.jpeg" alt="Online Classes">
+            <div class="feature-content">
+                <h4>Online Classes</h4>
+                <p>You pick the schedule.</p>
+            </div>
+        </div>
+
+        <div class="feature-card">
+            <img src="logo14.jpg" alt="Educator Helps">
+            <div class="feature-content">
+                <h4>Educator Helps</h4>
+                <p>You pick the schedule.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                    <div class="col-lg-6" style="background-color: black;">
+                </div>
+            </div>
+    </div>
+
+    <div class="container-fluid" style="background-image: url(bg3.png);">
+                <div class="container">
+                    <div class="row">
+                        <h4 style="display: flex; align-items: center;justify-content: center; font-weight: 500; color: orangered;">START TO SUCCESS</h4>
+                        <h1 style="display: flex; align-items: center;justify-content: center; font-weight: 700;">Achieve Your Goals With Edukon</h1>
+                    </div>
+                    <div class="row">
+                    <div class="col my-5">
+                        <div class="card" style="width: 15rem; border: none; background: none">
+                        <div class="card-body">
+                            <h1 class="card-title" style="padding-left: 60px; font-weight: 900;">30+</h1>
+                            <p class="card-text" style="width: 210px; display: flex; align-items: center; justify-content: center; font-weight: 700; color: grey;">Years of Language Education Experience</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col my-5">
+                        <div class="card" style="width: 15rem; border: none; background: none">
+                        <div class="card-body">
+                            <h1 class="card-title" style="padding-left: 60px; font-weight: 900;">30+</h1>
+                            <p class="card-text" style="width: 210px; display: flex; align-items: center; justify-content: center; font-weight: 700; color: grey;">Years of Language Education Experience</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col my-5">
+                        <div class="card" style="width: 15rem; border: none; background: none">
+                        <div class="card-body">
+                            <h1 class="card-title" style="padding-left: 60px; font-weight: 900;">30+</h1>
+                            <p class="card-text" style="width: 210px; display: flex; align-items: center; justify-content: center; font-weight: 700;  color: grey;">Years of Language Education Experience</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col my-5">
+                        <div class="card" style="width: 15rem; border: none; background: none;">
+                        <div class="card-body">
+                            <h1 class="card-title" style="padding-left: 60px; font-weight: 900;">30+</h1>
+                            <p class="card-text" style="width: 210px; display: flex; align-items: center; justify-content: center; font-weight: 700; color: grey;">Years of Language Education Experience</p>
+                            </div>
+                        </div>
+  
+                    </div>
+                </div>
+            </div>          
+    </div>
+
+    <div class="container-fluid my-5" style="background-color: antiquewhite;">
+                    <div class="container my-3">
+                        <div class="row">
+                            <div class="col-12">
+                                <p style="display: flex;align-items: center;justify-content: center; color: orangered;font-size: 23px;font-weight: 600;">FORM OUR BLOG POSTS</p>
+                                <h1 style="display: flex;align-items: center;justify-content: center;font-weight: 700;">More Articles From Resource Library</h1>
+                            </div>
+
+                             <div class="col my-5">
+                    <div class="card" style="width: 20rem; padding: 16px;">
+                        <img src="02.jpeg" class="card-img-top" alt="client.1">
+                                <div class="card-text my-2">
+                                    <h4 style="font-weight: 600;">Scottish Creatives To Receive Funded Business.</h4>
+                                </div>
+                                <div class="lesson.1" style="display: flex; justify-content: space-between;" >
+                                <p><i class="ri-contacts-fill" style="color: orangered; margin: 0px 5px;"></i> Begrass Tyson</p>
+                                <p><i class="ri-calendar-todo-fill" style="color: orangered; margin: 0px 5px;"></i> April 23,2022</p>
+                                </div>
+                                <p>Pluoresnts customize prancing apcentered customer service
+                                    anding ands asing straelg Interacvely cordinate performe</p>
+                                <hr>
+                                <div class="client.2" style="display: flex; justify-content: space-between;">
+                                   <h5>Read More <i class="ri-share-box-fill" style="color: orangered;"></i></h5>
+                                    <h5> <i class="ri-mail-ai-fill" style="color: orangered;"></i> </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                             <div class="col my-5">
+                    <div class="card" style="width: 20rem; padding: 16px;">
+                        <img src="05.jpeg" class="card-img-top" alt="client.1">
+                                <div class="card-text my-2">
+                                    <h4 style="font-weight: 600;">Scottish Creatives To Receive Funded Business.</h4>
+                                </div>                                
+                               <div class="lesson.1" style="display: flex; justify-content: space-between;" >
+                                <p><i class="ri-contacts-fill" style="color: orangered; margin: 0px 5px;"></i> Begrass Tyson</p>
+                                <p><i class="ri-calendar-todo-fill" style="color: orangered; margin: 0px 5px;"></i> April 23,2022</p>
+                                </div>
+                                <p>Pluoresnts customize prancing apcentered customer service
+                                    anding ands asing straelg Interacvely cordinate performe</p>
+                                <hr>
+                                <div class="client.2" style="display: flex; justify-content: space-between;">
+                                    <h5>Read More <i class="ri-share-box-fill" style="color: orangered;"></i></h5>
+                                    <h5> <i class="ri-mail-ai-fill" style="color: orangered;"></i> </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                  <div class="col my-5">
+                    <div class="card" style="width: 20rem; padding: 16px;">
+                        <img src="06.jpeg" class="card-img-top" alt="client.1">
+                                <div class="card-text my-2">
+                                    <h4 style="font-weight: 600;">Scottish Creatives To Receive Funded Business.</h4>
+                                </div>                               
+                                <div class="lesson.1" style="display: flex; justify-content: space-between;" >
+                                <p><i class="ri-contacts-fill" style="color: orangered; margin: 0px 5px;"></i> Begrass Tyson</p>
+                                <p><i class="ri-calendar-todo-fill" style="color: orangered; margin: 0px 5px;"></i> April 23,2022</p>
+                                </div>
+                                <p>Pluoresnts customize prancing apcentered customer service
+                                    anding ands asing straelg Interacvely cordinate performe</p>
+                                <hr>
+                                <div class="client.2" style="display: flex; justify-content: space-between;">                                   
+                                    <h5>Read More <i class="ri-share-box-fill" style="color: orangered;"></i></h5>
+                                    <h5> <i class="ri-mail-ai-fill" style="color: orangered;"></i> </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+        <div class="container-fluid" style="background-color: rgb(17, 4, 48);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 my-5">
+                        <h1 style="color: white;">Want Us To Email You About 
+                            Special Offers And Updates?</h1>
+                    </div>
+                    <div class="col-lg-6 my-5" style="display: block;">
+                        <div class="b1 my-2 bb1" style="display: flex;">
+                            <i class="ri-send-plane-fill" style="font-size: 20px;color: green; position: absolute; margin-top: 13px; margin-left: 10px;"></i>
+                              <input   type="email"placeholder="Enter your email" style="border: none; padding-left: 50px; height: 50px; width: 250px;">
+                              <button id="bb2" style="border: none; background-color: green; height: 50px; width: 130px; color: white; font-size: 15px;">Subscribe Now</button>
+                            </div>
+                    </div>
+                </div>
+                 <hr style="color: white;">
+            </div>
+
+                    <div class="footer-container">
+    <div class="container">
+        <div class="row footer-row">
+            <!-- Site Map Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Site Map</h2>
+                <ul class="footer-list">
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Plugins</a></li>
+                    <li><a href="#">Support Forums</a></li>
+                    <li><a href="#">Themes</a></li>
+                </ul>
+            </div>
+            
+            <!-- Useful Links Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Useful Links</h2>
+                <ul class="footer-list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Help Link</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            
+            <!-- Social Contact Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Social Contact</h2>
+                <ul class="footer-list">
+                    <li><a href="#"><i class="ri-facebook-fill"></i> Facebook</a></li>
+                    <li><a href="#"><i class="ri-twitter-fill"></i> Twitter</a></li>
+                    <li><a href="#"><i class="ri-instagram-fill"></i> Instagram</a></li>
+                    <li><a href="#"><i class="ri-youtube-fill"></i> YouTube</a></li>
+                    <li><a href="#"><i class="ri-github-fill"></i> Github</a></li>
+                </ul>
+            </div>
+            
+            <!-- Our Support Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Our Support</h2>
+                <ul class="footer-list">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Paid with Mollie</a></li>
+                    <li><a href="#">Status</a></li>
+                    <li><a href="#">Changelog</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+
+        <div class="container-fluid my-5">
+            <div class="container" style="display: flex;align-items: center; justify-content: center;">
+                <p>© 2022 <a href="#" class="foot1" style="text-decoration: none; font-weight: 700; color: black;"> Edukon</a>
+                    Designed by <a href="#" class="foot2" style="text-decoration: none; font-weight: 700; color: black;"> CodexCoder</a></p>
+            </div>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
+

@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edukon - Education And LMS React JS
+Template Preview - ThemeForest</title>
+<link rel="shortcut icon" href="https://i.pinimg.com/736x/5b/39/56/5b3956c6be6f944aaac93debf81a5c7a.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Custom CSS for responsiveness */
+        .top-info-bar {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+        
+        .top-info-bar .icon-item {
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .top-info-bar i {
+            margin-right: 5px;
+        }
+        
+        .social-icons {
+            display: flex;
+        }
+        
+        .social-icons a {
+            color: chocolate;
+            margin-left: 10px;
+            font-size: 18px;
+        }
+        
+        .navbar-brand img {
+            max-height: 50px;
+        }
+        
+        .hero-section {
+            padding: 60px 0;
+        }
+        
+        .hero-content {
+            padding: 20px;
+        }
+        
+        .hero-image {
+            text-align: center;
+        }
+        
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        @media (max-width: 991.98px) {
+            .navbar-collapse {
+                padding-left: 0 !important;
+            }
+            
+            .buttonp1 {
+                margin-top: 15px;
+            }
+            
+            .hero-content h1 {
+                font-size: 36px !important;
+                width: 100% !important;
+            }
+            
+            .hero-content p {
+                width: 100% !important;
+            }
+        }
+        
+        @media (max-width: 767.98px) {
+            .top-info-bar .icon-item {
+                margin-bottom: 5px;
+            }
+            
+            .social-icons {
+                justify-content: flex-start;
+                margin-top: 10px;
+            }
+            
+            .hero-content {
+                text-align: center;
+            }
+            
+            .search-bar {
+                margin: 0 auto;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+        <div class="container-fluid" style=" height: 80vh; position: relative; background-image: url(./bg.1.png); background-position: center; background-size: cover; background-repeat: no-repeat;">
+        <!-- Top Black Bar -->
+        <div class="container-fluid fixed-top" style="background-color: black; height: 70px; display: flex; justify-content: space-between; align-items: center;"> 
+            <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/home.html">
+                <img src="https://public-assets.envato-static.com/assets/logos/envato_market-dd390ae860330996644c1c109912d2bf63885fc075b87215ace9b5b4bdc71cc8.svg" style="width:150px;" alt="logo">
+            </a>
+            <button type="button" style="border: none; color: white; background-color: rgb(11, 128, 11); width: 100px; height: 40px;" class="btn"> 
+<a class="header-buy-now e-btn--3d -color-primary" style="text-decoration: none; color: white;" href="https://themeforest.net/checkout/from_item/38286924?license=regular&amp;support=bundle_6month">Buy now</a></button>
+        </div>
+        
+        <!-- Top Info Bar -->
+        <div class="top-info-bar  p-3 mb-5 bg-body-tertiary rounded">
+            <div class="container-fluid d-none d-lg-block" style=" padding: 20px 130px; margin-top: 40px; background-color: white; height: 60px;">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6 col-12 icon-item">
+                        <i class="ri-phone-fill" style="color: orangered;"></i> +800-123-4567 6587
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 icon-item" style=" border-left:  1px solid rgb(233, 233, 233); height: 40px;">
+                        <i class="fas fa-location-dot" style="color: orangered;"></i> Beverley, New York 224 USA
+                    </div> 
+                    <div class="col-lg-2 col-md-6 col-12 icon-item" style="display: flex; gap:20px;border-left:  1px solid rgb(233, 233, 233); height: 45px;">
+                        Find us on :
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; " >
+                            <i class="ri-messenger-fill" style="color: chocolate; font-size: 20px;"></i></a>
+                    </div> 
+                    <div class="col-lg-3 col-md-6 col-12 social-icons">
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:20px;border-left:  1px solid rgb(233, 233, 233); height: 40px; width: 50px; padding-top: 10px;padding-left: 19px;"><i class="ri-twitter-fill"></i></a>
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:30px;border-left:  1px solid rgb(233, 233, 233); height: 40px; width: 50px; padding-top: 10px;padding-left: 19px;"><i class="ri-vimeo-fill"></i></a>
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:20px;border-left:  1px solid rgb(233, 233, 233); height: 40px; width: 50px; padding-top: 10px;padding-left: 19px;"><i class="ri-skype-fill"></i></a>
+                        <a href="file:///C:/Users/YASIN%20KHAN/OneDrive/Desktop/bootstrip.1/index.html#" style="text-decoration: none; gap:20px;border-left:  1px solid rgb(233, 233, 233); height: 40px; width: 50px; padding-top: 10px;padding-left: 19px;"> <i class="ri-wifi-fill"></i></a>
+                    </div> 
+                    
+                </div>
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+        <div class="container-fluid fixed-top" style=" margin-top: 125px;">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="logo.2.png" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="./HomeOne.html">Home One</a></li>
+                                    <li><a class="dropdown-item blue1" href="./HomeTwo.html">Home Two</a></li>
+                                    <li><a class="dropdown-item blue1" href="./HomeThree.html">Home Three</a></li>
+                                    <li><a class="dropdown-item blue1" href="./HomeFour.html">Home Four</a></li>
+                                    <!-- <li><a class="dropdown-item" href="HomeFive.html">Home Five</a></li> -->
+                                    <!-- <li><a class="dropdown-item" href="HomeSeven.html">Home Six</a></li> -->
+                                    <!-- <li><a class="dropdown-item" href="HomeSeven.html">Home Seven</a></li> -->
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Course
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="./Course.html">Course</a></li>
+                                    <li><a class="dropdown-item blue1" href="./Course Details.html">Course Details</a></li>
+                                    <li><a class="dropdown-item blue1" href="./Course View.html">Course View</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="Blog grid.html">Blog grid</a></li>
+                                    <li><a class="dropdown-item blue1" href="Blog Style 2.html">Blog Style 2</a></li>
+                                    <li><a class="dropdown-item blue1" href="Blog Style 3.html">Blog Style 3</a></li>
+                                    <li><a class="dropdown-item blue1" href="Blog Single.html">Blog Single</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" style="font-weight: 700;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item blue1" href="About.html">About</a></li>
+                                    <li><a class="dropdown-item " href="Team.html">Team</a></li>
+                                    <li><a class="dropdown-item blue1" href="Instructor.html">Instructor</a></li>
+                                    <li><a class="dropdown-item blue1" href="Shop Page.html">Shop Page</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="font-weight: 700;" href="Contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="buttonp1 d-flex">
+                            <button type="button" class="btn btn-light me-2" style="background-color: rgb(233, 231, 231); border: none; width: 90px; height: 50px;">SIGN UP</button>
+                            <button type="button" class="btn" style="background-color: coral; width: 90px; height: 50px; border: none; color: white;">LOG IN</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container-fluid">
+            <div class="container" style="display: flex;align-items: center;justify-content: center;margin-top: 160px;">
+                <div class="c21">
+                    <h1 style=" font-weight: 700;">Our Blog Classic Posts</h1>
+                    <div class="c20 d-flex" style="padding-left: 150px;">
+                        <a href="HomeOne.html" style="text-decoration: none; color: black;font-weight: 500;">Home /</a> <p style="margin-left: 10px; font-weight: 500; color: gray;">Blog</p>
+                    </div>  
+                </div>
+            </div>
+        </div>       
+        </div>
+
+        <div class="container-fluid course-hero-section" style="background-color: rgb(253, 250, 243);">
+    <div class="container" style="display: flex; flex-wrap: wrap;">
+        <div class="col-lg-8 col-md-12 col-sm-12">
+            <div class="sp5" style="box-shadow: 0px 0px 10px 5px rgb(206, 206, 206); margin-bottom: 30px;">
+                <div class="col">
+                   <div class="bar1" style="border: 1px solid rgb(228, 228, 228); height: 50px;padding-top: 12px;padding-left: 20px;">
+                    <h5>Showing 01 - 12 of 139 Results</h5>
+                    
+                   </div>
+                   <div class="row">
+                   <div class="card" style=" margin-left: 20px; margin-top: 20px; width: 13rem; border: none;box-shadow: 0px 0px 10px 5px rgb(238, 238, 238);">
+                        <img src="s1.jpg" style=" width: 180px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 style="font-weight: 700; font-size: 17px;">Product Title Here</h6>
+                            <div class="i1">
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            </div>
+                            
+                            <p class="card-text" style="font-weight: 700; font-size: 20px;padding-left: 40px;">$200.00</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style=" margin-left: 20px; margin-top: 20px; width: 13rem; border: none;box-shadow: 0px 0px 10px 5px rgb(238, 238, 238);">
+                        <img src="s2.jpg" style=" width: 180px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 style="font-weight: 700; font-size: 17px;">Product Title Here</h6>
+                            <div class="i1">
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            </div>
+                            
+                            <p class="card-text" style="font-weight: 700; font-size: 20px;padding-left: 40px;">$200.00</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style=" margin-left: 20px; margin-top: 20px; width: 13rem; border: none;box-shadow: 0px 0px 10px 5px rgb(238, 238, 238);">
+                        <img src="s3.jpg" style=" width: 180px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 style="font-weight: 700; font-size: 17px;">Product Title Here</h6>
+                            <div class="i1">
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            </div>
+                            
+                            <p class="card-text" style="font-weight: 700; font-size: 20px;padding-left: 40px;">$200.00</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style=" margin-left: 20px; margin-top: 20px; width: 13rem; border: none;box-shadow: 0px 0px 10px 5px rgb(238, 238, 238);">
+                        <img src="s4.jpg" style=" width: 180px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 style="font-weight: 700; font-size: 17px;">Product Title Here</h6>
+                            <div class="i1">
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            </div>
+                            
+                            <p class="card-text" style="font-weight: 700; font-size: 20px;padding-left: 40px;">$200.00</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style=" margin-left: 20px; margin-top: 20px; width: 13rem; border: none;box-shadow: 0px 0px 10px 5px rgb(238, 238, 238);">
+                        <img src="s5.jpg" style=" width: 180px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 style="font-weight: 700; font-size: 17px;">Product Title Here</h6>
+                            <div class="i1">
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            </div>
+                            
+                            <p class="card-text" style="font-weight: 700; font-size: 20px;padding-left: 40px;">$200.00</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style=" margin-left: 20px; margin-top: 20px; width: 13rem; border: none;box-shadow: 0px 0px 10px 5px rgb(238, 238, 238);">
+                        <img src="s6.jpg" style=" width: 180px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 style="font-weight: 700; font-size: 17px;">Product Title Here</h6>
+                            <div class="i1">
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            </div>
+                            
+                            <p class="card-text" style="font-weight: 700; font-size: 20px;padding-left: 40px;">$200.00</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style=" margin-left: 20px; margin-top: 20px; width: 13rem; border: none;box-shadow: 0px 0px 10px 5px rgb(238, 238, 238);">
+                        <img src="s7.jpg" style=" width: 180px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h style="font-weight: 700; font-size: 17px;">Product Title Here</h6>
+                            <div class="i1">
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            </div>
+                            
+                            <p class="card-text" style="font-weight: 700; font-size: 20px;padding-left: 40px;">$200.00</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style=" margin-left: 20px; margin-top: 20px; width: 13rem; border: none;box-shadow: 0px 0px 10px 5px rgb(238, 238, 238);">
+                        <img src="s8.jpg" style=" width: 180px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 style="font-weight: 700; font-size: 17px;">Product Title Here</h6>
+                            <div class="i1">
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            </div>
+                            
+                            <p class="card-text" style="font-weight: 700; font-size: 20px;padding-left: 40px;">$200.00</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style=" margin-left: 20px; margin-top: 20px; width: 13rem; border: none;box-shadow: 0px 0px 10px 5px rgb(238, 238, 238);">
+                        <img src="s9.jpg" style=" width: 180px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 style="font-weight: 700; font-size: 17px;">Product Title Here</h6>
+                            <div class="i1">
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            <i class="ri-star-half-s-line" style=" color: orange; font-size: 24px;"></i>
+                            </div>
+                            
+                            <p class="card-text" style="font-weight: 700; font-size: 20px;padding-left: 40px;">$200.00</p>
+                        </div>
+                    </div>
+                    </div>
+
+                   </div>
+                </div>
+            </div>
+        
+    
+    
+        <div class="col-lg-4 col-md-12 col-sm-12" style="background-color: white; padding: 15px;">
+            <div class="search-container" style="margin-bottom: 20px;">
+                <div style="display: flex; border: 1px solid rgb(214, 214, 214); background-color: white;">
+                    <input type="text" style="outline: none; width: 100%; height: 50px; padding-left: 15px; border: none; background-color: rgb(235, 233, 233);" placeholder="Search...">
+                    <i class="ri-search-eye-line" style="background-color: rgb(235, 233, 233); padding: 13px 15px; font-size: 25px;"></i>
+                </div>
+            </div>
+            
+            <div class="categories" style="margin-bottom: 30px;">
+                <div style="display: flex; justify-content: space-between; padding: 15px; border-bottom: 1px solid #eee;">
+                    <span style="font-weight: 600;"><span style="font-weight: 800; padding-right: 5px;"> >> </span> Themeforest</span>
+                    <span style="font-weight: 600;">06</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; padding: 15px; border-bottom: 1px solid #eee;">
+                    <span style="font-weight: 600;"><span style="font-weight: 800; padding-right: 5px;"> >> </span> Photodune</span>
+                    <span style="font-weight: 600;">11</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; padding: 15px; border-bottom: 1px solid #eee;">
+                    <span style="font-weight: 600;"><span style="font-weight: 800; padding-right: 5px;"> >> </span> CodeCanyon</span>
+                    <span style="font-weight: 600;">07</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; padding: 15px; border-bottom: 1px solid #eee;">
+                    <span style="font-weight: 600;"><span style="font-weight: 800; padding-right: 5px;"> >> </span> GRaphicdriver</span>
+                    <span style="font-weight: 600;">09</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; padding: 15px; border-bottom: 1px solid #eee;">
+                    <span style="font-weight: 600;"><span style="font-weight: 800; padding-right: 5px;"> >> </span> WordPress</span>
+                    <span style="font-weight: 600;">50</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; padding: 15px; border-bottom: 1px solid #eee;">
+                    <span style="font-weight: 600;"><span style="font-weight: 800; padding-right: 5px;"> >> </span> Joomla</span>
+                    <span style="font-weight: 600;">20</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; padding: 15px;">
+                    <span style="font-weight: 600;"><span style="font-weight: 800; padding-right: 5px;"> >> </span> 3docean</span>
+                    <span style="font-weight: 600;">93</span>
+                </div>
+            </div>
+            
+            <div class="popular-posts" style="margin-bottom: 30px;">
+                <div style="box-shadow: 0px 0px 3px 3px rgb(252, 252, 252); border: 1px solid rgb(231, 231, 231); padding: 15px;">
+                    <h5 style="font-weight: 700; margin: 0;">Most Popular Post</h5>
+                </div>
+                
+                <div style="display: flex; gap: 15px; padding: 15px; border-bottom: 1px solid #eee;">
+                    <img src="a1.jpg" style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                    <div>
+                        <h5 class="blue2" style="font-size: 16px; margin: 0;">Poor People's Campaign Our Resources</h5>
+                        <p class="oran4" style="margin: 5px 0 0; font-size: 14px;">Jun 05,2022</p>
+                    </div>
+                </div>
+                
+                <div style="display: flex; gap: 15px; padding: 15px; border-bottom: 1px solid #eee;">
+                    <img src="a2.jpg" style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                    <div>
+                        <h5 class="blue2" style="font-size: 16px; margin: 0;">Poor People's Campaign Our Resources</h5>
+                        <p class="oran4" style="margin: 5px 0 0; font-size: 14px;">Jun 05,2022</p>
+                    </div>
+                </div>
+                
+                <div style="display: flex; gap: 15px; padding: 15px; border-bottom: 1px solid #eee;">
+                    <img src="a3.jpg" style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                    <div>
+                        <h5 class="blue2" style="font-size: 16px; margin: 0;">Poor People's Campaign Our Resources</h5>
+                        <p class="oran4" style="margin: 5px 0 0; font-size: 14px;">Jun 05,2022</p>
+                    </div>
+                </div>
+                
+                <div style="display: flex; gap: 15px; padding: 15px;">
+                    <img src="a4.jpg" style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                    <div>
+                        <h5 class="blue2" style="font-size: 16px; margin: 0;">Poor People's Campaign Our Resources</h5>
+                        <p class="oran4" style="margin: 5px 0 0; font-size: 14px;">Jun 05,2022</p>
+                    </div>
+                </div>
+            </div>
+            
+           
+           
+             <div class="gallery1" style=" margin-top: 30px; border: 1px solid rgb(255, 255, 255); box-shadow: 0px 0px 10px rgb(226, 226, 226);">
+                <h4 style="font-weight: 700;padding-left: 20px;padding-top: 20px;">Our Popular Tags</h4>
+                <div class="inm1" style="padding-left: 20px">
+                   <button class="hov3" style="">envato</button>
+                   <button class="hov3" style=" margin: 5px;">themeforest</button>
+                   <button class="hov3" style=" margin: 5px;">codecanyon</button>
+                   <button class="hov3" style=" margin: 5px;">videohive</button>
+                   <button class="hov3" style=" margin: 5px;">audiojungle</button>
+                   <button class="hov3" style=" margin: 5px;">3docean</button>
+                   <button class="hov3" style=" margin: 5px;">envato</button>
+                   <button class="hov3" style=" margin: 5px;">themeforest</button>
+                   <button class="hov3" style=" margin: px;">codecanyon</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container" style="padding: 30px 0; display: flex; justify-content: center; gap: 10px;">
+        <a class="bmw1" href="#" style="text-decoration: none; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 20px; border-radius: 50%; box-shadow: 0px 0px 5px 5px rgb(240, 240, 240);"> &lt; </a>
+        <a class="bmw1" href="#" style="text-decoration: none; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 16px; border-radius: 50%; box-shadow: 0px 0px 5px 5px rgb(240, 240, 240);">01</a>
+        <a class="bmw1 active" href="#" style="text-decoration: none; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 16px; border-radius: 50%; background-color: orange; color: white; box-shadow: 0px 0px 5px 5px rgb(240, 240, 240);">02</a>
+        <a class="bmw1" href="#" style="text-decoration: none; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 16px; border-radius: 50%; box-shadow: 0px 0px 5px 5px rgb(240, 240, 240);">03</a>
+        <a class="bmw1" href="#" style="text-decoration: none; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 20px; border-radius: 50%; box-shadow: 0px 0px 5px 5px rgb(240, 240, 240);"> &gt; </a>
+    </div>
+        </div>
+
+         <div class="container-fluid" style="background-color: rgb(17, 4, 48);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 my-5">
+                        <h1 style="color: white;">Want Us To Email You About 
+                            Special Offers And Updates?</h1>
+                    </div>
+                    <div class="col-lg-6 my-5" style="display: block;">
+                        <div class="b1 my-2 bb1" style="display: flex;">
+                            <i class="ri-send-plane-fill" style="font-size: 20px;color: green; position: absolute; margin-top: 13px; margin-left: 10px;"></i>
+                              <input   type="email"placeholder="Enter your email" style="border: none; padding-left: 50px; height: 50px; width: 250px;">
+                              <button id="bb2" style="border: none; background-color: green; height: 50px; width: 130px; color: white; font-size: 15px;">Subscribe Now</button>
+                            </div>
+                    </div>
+                </div>
+                 <hr style="color: white;">
+            </div>
+
+                    <div class="footer-container">
+    <div class="container">
+        <div class="row footer-row">
+            <!-- Site Map Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Site Map</h2>
+                <ul class="footer-list">
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Plugins</a></li>
+                    <li><a href="#">Support Forums</a></li>
+                    <li><a href="#">Themes</a></li>
+                </ul>
+            </div>
+            
+            <!-- Useful Links Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Useful Links</h2>
+                <ul class="footer-list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Help Link</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            
+            <!-- Social Contact Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Social Contact</h2>
+                <ul class="footer-list">
+                    <li><a href="#"><i class="ri-facebook-fill"></i> Facebook</a></li>
+                    <li><a href="#"><i class="ri-twitter-fill"></i> Twitter</a></li>
+                    <li><a href="#"><i class="ri-instagram-fill"></i> Instagram</a></li>
+                    <li><a href="#"><i class="ri-youtube-fill"></i> YouTube</a></li>
+                    <li><a href="#"><i class="ri-github-fill"></i> Github</a></li>
+                </ul>
+            </div>
+            
+            <!-- Our Support Column -->
+            <div class="col-md-3 col-sm-6 footer-col">
+                <h2 class="footer-heading">Our Support</h2>
+                <ul class="footer-list">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Paid with Mollie</a></li>
+                    <li><a href="#">Status</a></li>
+                    <li><a href="#">Changelog</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div class="container-fluid my-5">
+            <div class="container" style="display: flex;align-items: center; justify-content: center;">
+                <p>© 2022 <a href="#" class="foot1" style="text-decoration: none; font-weight: 700; color: black;"> Edukon</a>
+                    Designed by <a href="#" class="foot2" style="text-decoration: none; font-weight: 700; color: black;"> CodexCoder</a></p>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+</body>
+</html>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cupiditate incidunt praesentium deleniti dolorum nam alias ratione nemo blanditiis porro? Fuga dolorem ad exercitationem omnis hic id, ullam eveniet fugit.
